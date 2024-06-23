@@ -4,7 +4,7 @@ import com.snwolf.chat.message.Message;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.handler.codec.ByteToMessageCodec;
+import io.netty.handler.codec.MessageToMessageCodec;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.ByteArrayInputStream;
@@ -17,20 +17,15 @@ import java.util.List;
  * @author <a href="https://github.com/SnowWolf68">SnowWolf68</a>
  * @Version: V1.0
  * @Date: 6/23/2024
- * @Description: 自定义协议对应的消息编解码器
+ * @Description: 可添加@Sharable注解的自定义编解码器
  */
 @Slf4j
-public class MessageCodec extends ByteToMessageCodec<Message> {
-
-    /**
-     * 将msg这个Message类型的消息按照自定义协议编码成ByteBuf
-     * @param ctx
-     * @param msg
-     * @param out
-     * @throws Exception
-     */
+@ChannelHandler.Sharable
+public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message> {
     @Override
-    protected void encode(ChannelHandlerContext ctx, Message msg, ByteBuf out) throws Exception {
+    protected void encode(ChannelHandlerContext ctx, Message msg, List<Object> outList) throws Exception {
+        // 这里outList是编码后ByteBuf的集合
+        ByteBuf out = ctx.alloc().buffer();
         log.info("encode...");
         // magic number
         out.writeBytes(new byte[]{1, 2, 3, 4});
@@ -54,15 +49,9 @@ public class MessageCodec extends ByteToMessageCodec<Message> {
         out.writeInt(bytes.length);
         // 消息正文
         out.writeBytes(bytes);
+        outList.add(out);
     }
 
-    /**
-     * 将按照自定义协议编码的ByteBuf解码成Message类型的msg对象
-     * @param ctx
-     * @param in
-     * @param out
-     * @throws Exception
-     */
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
         log.info("decode...");

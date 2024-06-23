@@ -29,3 +29,11 @@ e
 5src/test/java/com/snwolf/chat/protocol/TestCodec.java,4\8\484faadc7caeb0e5b41694560d23d68aa91a26a8
 g
 7src/main/java/com/snwolf/chat/utils/ByteBufferUtil.java,3\8\38c87cf6a763e47e3817c285cd3d8ab6cf849a41
+d
+4src/main/java/com/snwolf/chat/server/ChatServer.java,6\5\659b2e654d1568dd43650895ff6e5432446dd623
+p
+@src/main/java/com/snwolf/chat/protocol/MessageCodecSharable.java,8\3\8329eb41adc32135046bc5ec76ad64ff996b6ba3
+m
+=src/main/java/com/snwolf/chat/server/service/UserService.java,d\1\d14b82890b3c25dda0219fac447df4b5e93ccfa1
+w
+Gsrc/main/java/com/snwolf/chat/server/service/UserServiceMemoryImpl.java,1\2\12b7782bd1712b9840b40f4351217a50b38fd79d
