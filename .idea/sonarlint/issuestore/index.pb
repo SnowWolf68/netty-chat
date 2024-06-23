@@ -47,3 +47,5 @@ g
 7src/main/java/com/snwolf/chat/server/session/Group.java,e\2\e2294394bc815ac77b96a644da28b9242bac5b01
 x
 Hsrc/main/java/com/snwolf/chat/server/session/GroupSessionMemoryImpl.java,a\2\a249e58c4ba3970a9af1b3cbac47892a1b02d417
+p
+@src/main/java/com/snwolf/chat/protocol/ProtocolFrameDecoder.java,5\b\5b67eec34adf64b8cb8ab75eeb28338d13300a91
