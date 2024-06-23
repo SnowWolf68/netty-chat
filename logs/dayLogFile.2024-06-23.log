@@ -4477,3 +4477,628 @@ java.io.IOException: An existing connection was forcibly closed by the remote ho
 2024-06-23 21:16:00.588  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: LoginResponseMessage(super=AbstractResponseMessage(super=Message(sequenceId=0, messageType=1), success=true, reason=登录成功))
 2024-06-23 21:16:00.588  INFO  [nioEventLoopGroup-2-1] c.s.c.c.ChatClient - read message: LoginResponseMessage(super=AbstractResponseMessage(super=Message(sequenceId=0, messageType=1), success=true, reason=登录成功))
 2024-06-23 21:16:00.589  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xc6faf811, L:/127.0.0.1:56053 - R:localhost/127.0.0.1:8080] READ COMPLETE
+2024-06-23 21:43:52.200  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-06-23 21:43:52.203  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-06-23 21:43:52.212  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-06-23 21:43:52.212  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-06-23 21:43:52.216  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-06-23 21:43:52.216  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-06-23 21:43:52.225  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-06-23 21:43:52.226  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-06-23 21:43:52.226  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-06-23 21:43:52.227  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-06-23 21:43:52.228  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-06-23 21:43:52.228  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-06-23 21:43:52.228  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-06-23 21:43:52.228  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-06-23 21:43:52.228  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-06-23 21:43:52.228  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-06-23 21:43:52.228  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-06-23 21:43:52.229  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-06-23 21:43:52.229  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-06-23 21:43:52.229  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-06-23 21:43:52.229  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-06-23 21:43:52.231  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-06-23 21:43:52.231  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-06-23 21:43:52.235  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-06-23 21:43:52.545  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 56044 (auto-detected)
+2024-06-23 21:43:52.548  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-06-23 21:43:52.548  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-06-23 21:43:52.742  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-06-23 21:43:52.742  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-06-23 21:43:52.937  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-06-23 21:43:52.944  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-06-23 21:43:52.944  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-06-23 21:43:52.957  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-06-23 21:43:52.958  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-06-23 21:43:52.958  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-06-23 21:43:52.963  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-06-23 21:43:52.963  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-06-23 21:43:52.963  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-06-23 21:44:08.522  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-06-23 21:44:08.525  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-06-23 21:44:08.533  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-06-23 21:44:08.533  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-06-23 21:44:08.537  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-06-23 21:44:08.537  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-06-23 21:44:08.546  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-06-23 21:44:08.547  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-06-23 21:44:08.547  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-06-23 21:44:08.548  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-06-23 21:44:08.548  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-06-23 21:44:08.549  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-06-23 21:44:08.549  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-06-23 21:44:08.549  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-06-23 21:44:08.550  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-06-23 21:44:08.550  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-06-23 21:44:08.550  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-06-23 21:44:08.550  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-06-23 21:44:08.551  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-06-23 21:44:08.551  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-06-23 21:44:08.551  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-06-23 21:44:08.552  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-06-23 21:44:08.552  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-06-23 21:44:08.555  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-06-23 21:44:08.848  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 65352 (auto-detected)
+2024-06-23 21:44:08.851  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-06-23 21:44:08.851  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-06-23 21:44:09.031  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-06-23 21:44:09.032  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-06-23 21:44:09.240  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-06-23 21:44:09.248  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-06-23 21:44:09.248  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-06-23 21:44:09.262  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-06-23 21:44:09.263  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-06-23 21:44:09.268  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-06-23 21:44:09.268  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-06-23 21:44:09.268  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-06-23 21:44:09.300  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0x5c0ad15c] REGISTERED
+2024-06-23 21:44:09.300  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0x5c0ad15c] CONNECT: localhost/127.0.0.1:8080
+2024-06-23 21:44:09.302  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0x5c0ad15c, L:/127.0.0.1:59034 - R:localhost/127.0.0.1:8080] ACTIVE
+2024-06-23 21:44:09.314  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 - R:/127.0.0.1:59034] REGISTERED
+2024-06-23 21:44:09.315  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 - R:/127.0.0.1:59034] ACTIVE
+2024-06-23 21:44:14.145  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-06-23 21:44:14.145  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-06-23 21:44:14.145  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-06-23 21:44:14.145  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-06-23 21:44:14.152  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-06-23 21:44:14.152  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-06-23 21:44:14.153  DEBUG [nioEventLoopGroup-2-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6dbd8115
+2024-06-23 21:44:14.154  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - encode...
+2024-06-23 21:44:14.159  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0x5c0ad15c, L:/127.0.0.1:59034 - R:localhost/127.0.0.1:8080] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 d2 |................|
+|00000010| ac ed 00 05 73 72 00 2b 63 6f 6d 2e 73 6e 77 6f |....sr.+com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 71 75 65 73 74 4d 65 73 73 |LoginRequestMess|
+|00000040| 61 67 65 46 35 0a 57 2a e7 d7 f4 02 00 02 4c 00 |ageF5.W*......L.|
+|00000050| 08 70 61 73 73 77 6f 72 64 74 00 12 4c 6a 61 76 |.passwordt..Ljav|
+|00000060| 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 |a/lang/String;L.|
+|00000070| 08 75 73 65 72 6e 61 6d 65 71 00 7e 00 01 78 72 |.usernameq.~..xr|
+|00000080| 00 1f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |..com.snwolf.cha|
+|00000090| 74 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 |t.message.Messag|
+|000000a0| 65 9f c7 36 a6 a8 dd 83 35 02 00 02 49 00 0b 6d |e..6....5...I..m|
+|000000b0| 65 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 |essageTypeI..seq|
+|000000c0| 75 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 |uenceIdxp.......|
+|000000d0| 00 74 00 03 31 31 31 74 00 08 7a 68 61 6e 67 73 |.t..111t..zhangs|
+|000000e0| 61 6e                                           |an              |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:44:14.160  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0x5c0ad15c, L:/127.0.0.1:59034 - R:localhost/127.0.0.1:8080] FLUSH
+2024-06-23 21:44:14.162  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-06-23 21:44:14.163  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-06-23 21:44:14.163  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-06-23 21:44:14.163  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-06-23 21:44:14.167  DEBUG [nioEventLoopGroup-3-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-06-23 21:44:14.167  DEBUG [nioEventLoopGroup-3-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-06-23 21:44:14.168  DEBUG [nioEventLoopGroup-3-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7999905c
+2024-06-23 21:44:14.172  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 - R:/127.0.0.1:59034] READ: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 d2 |................|
+|00000010| ac ed 00 05 73 72 00 2b 63 6f 6d 2e 73 6e 77 6f |....sr.+com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 71 75 65 73 74 4d 65 73 73 |LoginRequestMess|
+|00000040| 61 67 65 46 35 0a 57 2a e7 d7 f4 02 00 02 4c 00 |ageF5.W*......L.|
+|00000050| 08 70 61 73 73 77 6f 72 64 74 00 12 4c 6a 61 76 |.passwordt..Ljav|
+|00000060| 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 |a/lang/String;L.|
+|00000070| 08 75 73 65 72 6e 61 6d 65 71 00 7e 00 01 78 72 |.usernameq.~..xr|
+|00000080| 00 1f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |..com.snwolf.cha|
+|00000090| 74 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 |t.message.Messag|
+|000000a0| 65 9f c7 36 a6 a8 dd 83 35 02 00 02 49 00 0b 6d |e..6....5...I..m|
+|000000b0| 65 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 |essageTypeI..seq|
+|000000c0| 75 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 |uenceIdxp.......|
+|000000d0| 00 74 00 03 31 31 31 74 00 08 7a 68 61 6e 67 73 |.t..111t..zhangs|
+|000000e0| 61 6e                                           |an              |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:44:14.173  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode...
+2024-06-23 21:44:14.173  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode message: magicNumber: 16909060, version: 1, serializeType: 0, messageType: 0, sequenceId: 0, length: 210, bytes: [-84, -19, 0, 5, 115, 114, 0, 43, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 76, 111, 103, 105, 110, 82, 101, 113, 117, 101, 115, 116, 77, 101, 115, 115, 97, 103, 101, 70, 53, 10, 87, 42, -25, -41, -12, 2, 0, 2, 76, 0, 8, 112, 97, 115, 115, 119, 111, 114, 100, 116, 0, 18, 76, 106, 97, 118, 97, 47, 108, 97, 110, 103, 47, 83, 116, 114, 105, 110, 103, 59, 76, 0, 8, 117, 115, 101, 114, 110, 97, 109, 101, 113, 0, 126, 0, 1, 120, 114, 0, 31, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 77, 101, 115, 115, 97, 103, 101, -97, -57, 54, -90, -88, -35, -125, 53, 2, 0, 2, 73, 0, 11, 109, 101, 115, 115, 97, 103, 101, 84, 121, 112, 101, 73, 0, 10, 115, 101, 113, 117, 101, 110, 99, 101, 73, 100, 120, 112, 0, 0, 0, 0, 0, 0, 0, 0, 116, 0, 3, 49, 49, 49, 116, 0, 8, 122, 104, 97, 110, 103, 115, 97, 110]
+2024-06-23 21:44:14.180  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode message: LoginRequestMessage(super=Message(sequenceId=0, messageType=0), username=zhangsan, password=111)
+2024-06-23 21:44:14.182  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - encode...
+2024-06-23 21:44:14.183  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 - R:/127.0.0.1:59034] WRITE: 292B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 14 |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6f 6d 2e 73 6e 77 6f |....sr.,com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 73 70 6f 6e 73 65 4d 65 73 |LoginResponseMes|
+|00000040| 73 61 67 65 27 ab cb 2e 95 d9 9e 6e 02 00 00 78 |sage'......n...x|
+|00000050| 72 00 2f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 |r./com.snwolf.ch|
+|00000060| 61 74 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 |at.message.Abstr|
+|00000070| 61 63 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 |actResponseMessa|
+|00000080| 67 65 1f 89 71 8c b0 b3 b5 6d 02 00 02 5a 00 07 |ge..q....m...Z..|
+|00000090| 73 75 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e |successL..reason|
+|000000a0| 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 |t..Ljava/lang/St|
+|000000b0| 72 69 6e 67 3b 78 72 00 1f 63 6f 6d 2e 73 6e 77 |ring;xr..com.snw|
+|000000c0| 6f 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 |olf.chat.message|
+|000000d0| 2e 4d 65 73 73 61 67 65 9f c7 36 a6 a8 dd 83 35 |.Message..6....5|
+|000000e0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000f0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000100| 00 00 00 00 00 00 00 00 00 74 00 18 e7 94 a8 e6 |.........t......|
+|00000110| 88 b7 e5 90 8d e6 88 96 e5 af 86 e7 a0 81 e9 94 |................|
+|00000120| 99 e8 af af                                     |....            |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:44:14.184  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 - R:/127.0.0.1:59034] FLUSH
+2024-06-23 21:44:14.184  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 - R:/127.0.0.1:59034] READ COMPLETE
+2024-06-23 21:44:14.186  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0x5c0ad15c, L:/127.0.0.1:59034 - R:localhost/127.0.0.1:8080] READ: 292B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 14 |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6f 6d 2e 73 6e 77 6f |....sr.,com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 73 70 6f 6e 73 65 4d 65 73 |LoginResponseMes|
+|00000040| 73 61 67 65 27 ab cb 2e 95 d9 9e 6e 02 00 00 78 |sage'......n...x|
+|00000050| 72 00 2f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 |r./com.snwolf.ch|
+|00000060| 61 74 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 |at.message.Abstr|
+|00000070| 61 63 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 |actResponseMessa|
+|00000080| 67 65 1f 89 71 8c b0 b3 b5 6d 02 00 02 5a 00 07 |ge..q....m...Z..|
+|00000090| 73 75 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e |successL..reason|
+|000000a0| 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 |t..Ljava/lang/St|
+|000000b0| 72 69 6e 67 3b 78 72 00 1f 63 6f 6d 2e 73 6e 77 |ring;xr..com.snw|
+|000000c0| 6f 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 |olf.chat.message|
+|000000d0| 2e 4d 65 73 73 61 67 65 9f c7 36 a6 a8 dd 83 35 |.Message..6....5|
+|000000e0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000f0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000100| 00 00 00 00 00 00 00 00 00 74 00 18 e7 94 a8 e6 |.........t......|
+|00000110| 88 b7 e5 90 8d e6 88 96 e5 af 86 e7 a0 81 e9 94 |................|
+|00000120| 99 e8 af af                                     |....            |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:44:14.186  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode...
+2024-06-23 21:44:14.186  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: magicNumber: 16909060, version: 1, serializeType: 0, messageType: 1, sequenceId: 0, length: 276, bytes: [-84, -19, 0, 5, 115, 114, 0, 44, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 76, 111, 103, 105, 110, 82, 101, 115, 112, 111, 110, 115, 101, 77, 101, 115, 115, 97, 103, 101, 39, -85, -53, 46, -107, -39, -98, 110, 2, 0, 0, 120, 114, 0, 47, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 65, 98, 115, 116, 114, 97, 99, 116, 82, 101, 115, 112, 111, 110, 115, 101, 77, 101, 115, 115, 97, 103, 101, 31, -119, 113, -116, -80, -77, -75, 109, 2, 0, 2, 90, 0, 7, 115, 117, 99, 99, 101, 115, 115, 76, 0, 6, 114, 101, 97, 115, 111, 110, 116, 0, 18, 76, 106, 97, 118, 97, 47, 108, 97, 110, 103, 47, 83, 116, 114, 105, 110, 103, 59, 120, 114, 0, 31, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 77, 101, 115, 115, 97, 103, 101, -97, -57, 54, -90, -88, -35, -125, 53, 2, 0, 2, 73, 0, 11, 109, 101, 115, 115, 97, 103, 101, 84, 121, 112, 101, 73, 0, 10, 115, 101, 113, 117, 101, 110, 99, 101, 73, 100, 120, 112, 0, 0, 0, 0, 0, 0, 0, 0, 0, 116, 0, 24, -25, -108, -88, -26, -120, -73, -27, -112, -115, -26, -120, -106, -27, -81, -122, -25, -96, -127, -23, -108, -103, -24, -81, -81]
+2024-06-23 21:44:14.189  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: LoginResponseMessage(super=AbstractResponseMessage(super=Message(sequenceId=0, messageType=1), success=false, reason=用户名或密码错误))
+2024-06-23 21:44:14.189  INFO  [nioEventLoopGroup-2-1] c.s.c.c.ChatClient - read message: LoginResponseMessage(super=AbstractResponseMessage(super=Message(sequenceId=0, messageType=1), success=false, reason=用户名或密码错误))
+2024-06-23 21:44:14.189  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0x5c0ad15c, L:/127.0.0.1:59034 - R:localhost/127.0.0.1:8080] READ COMPLETE
+2024-06-23 21:45:18.223  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 - R:/127.0.0.1:59034] READ COMPLETE
+2024-06-23 21:45:18.225  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 - R:/127.0.0.1:59034] EXCEPTION: java.io.IOException: An existing connection was forcibly closed by the remote host
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1140)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-06-23 21:45:18.225  WARN  [nioEventLoopGroup-3-1] i.n.c.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1140)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-06-23 21:45:18.228  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 ! R:/127.0.0.1:59034] INACTIVE
+2024-06-23 21:45:18.228  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x4066e77f, L:/127.0.0.1:8080 ! R:/127.0.0.1:59034] UNREGISTERED
+2024-06-23 21:45:22.036  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-06-23 21:45:22.039  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-06-23 21:45:22.047  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-06-23 21:45:22.048  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-06-23 21:45:22.051  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-06-23 21:45:22.051  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-06-23 21:45:22.059  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-06-23 21:45:22.060  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-06-23 21:45:22.060  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-06-23 21:45:22.061  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-06-23 21:45:22.061  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-06-23 21:45:22.061  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-06-23 21:45:22.062  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-06-23 21:45:22.062  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-06-23 21:45:22.062  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-06-23 21:45:22.062  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-06-23 21:45:22.062  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-06-23 21:45:22.062  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-06-23 21:45:22.062  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-06-23 21:45:22.063  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-06-23 21:45:22.063  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-06-23 21:45:22.064  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-06-23 21:45:22.064  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-06-23 21:45:22.067  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-06-23 21:45:22.361  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 44244 (auto-detected)
+2024-06-23 21:45:22.362  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-06-23 21:45:22.362  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-06-23 21:45:22.551  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-06-23 21:45:22.552  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-06-23 21:45:22.733  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-06-23 21:45:22.741  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-06-23 21:45:22.742  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-06-23 21:45:22.755  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-06-23 21:45:22.755  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-06-23 21:45:22.755  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-06-23 21:45:22.755  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-06-23 21:45:22.756  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-06-23 21:45:22.760  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-06-23 21:45:22.761  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-06-23 21:45:22.761  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-06-23 21:45:22.786  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832] REGISTERED
+2024-06-23 21:45:22.786  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832] CONNECT: localhost/127.0.0.1:8080
+2024-06-23 21:45:22.788  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 - R:/127.0.0.1:59306] REGISTERED
+2024-06-23 21:45:22.788  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 - R:/127.0.0.1:59306] ACTIVE
+2024-06-23 21:45:22.788  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832, L:/127.0.0.1:59306 - R:localhost/127.0.0.1:8080] ACTIVE
+2024-06-23 21:45:28.044  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-06-23 21:45:28.044  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-06-23 21:45:28.044  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-06-23 21:45:28.044  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-06-23 21:45:28.052  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-06-23 21:45:28.052  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-06-23 21:45:28.053  DEBUG [nioEventLoopGroup-2-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@68815b90
+2024-06-23 21:45:28.054  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - encode...
+2024-06-23 21:45:28.059  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832, L:/127.0.0.1:59306 - R:localhost/127.0.0.1:8080] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 d2 |................|
+|00000010| ac ed 00 05 73 72 00 2b 63 6f 6d 2e 73 6e 77 6f |....sr.+com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 71 75 65 73 74 4d 65 73 73 |LoginRequestMess|
+|00000040| 61 67 65 46 35 0a 57 2a e7 d7 f4 02 00 02 4c 00 |ageF5.W*......L.|
+|00000050| 08 70 61 73 73 77 6f 72 64 74 00 12 4c 6a 61 76 |.passwordt..Ljav|
+|00000060| 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 |a/lang/String;L.|
+|00000070| 08 75 73 65 72 6e 61 6d 65 71 00 7e 00 01 78 72 |.usernameq.~..xr|
+|00000080| 00 1f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |..com.snwolf.cha|
+|00000090| 74 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 |t.message.Messag|
+|000000a0| 65 9f c7 36 a6 a8 dd 83 35 02 00 02 49 00 0b 6d |e..6....5...I..m|
+|000000b0| 65 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 |essageTypeI..seq|
+|000000c0| 75 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 |uenceIdxp.......|
+|000000d0| 00 74 00 03 31 31 31 74 00 08 7a 68 61 6e 67 73 |.t..111t..zhangs|
+|000000e0| 61 6e                                           |an              |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:45:28.059  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832, L:/127.0.0.1:59306 - R:localhost/127.0.0.1:8080] FLUSH
+2024-06-23 21:45:28.060  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 - R:/127.0.0.1:59306] READ: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 d2 |................|
+|00000010| ac ed 00 05 73 72 00 2b 63 6f 6d 2e 73 6e 77 6f |....sr.+com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 71 75 65 73 74 4d 65 73 73 |LoginRequestMess|
+|00000040| 61 67 65 46 35 0a 57 2a e7 d7 f4 02 00 02 4c 00 |ageF5.W*......L.|
+|00000050| 08 70 61 73 73 77 6f 72 64 74 00 12 4c 6a 61 76 |.passwordt..Ljav|
+|00000060| 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 |a/lang/String;L.|
+|00000070| 08 75 73 65 72 6e 61 6d 65 71 00 7e 00 01 78 72 |.usernameq.~..xr|
+|00000080| 00 1f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |..com.snwolf.cha|
+|00000090| 74 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 |t.message.Messag|
+|000000a0| 65 9f c7 36 a6 a8 dd 83 35 02 00 02 49 00 0b 6d |e..6....5...I..m|
+|000000b0| 65 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 |essageTypeI..seq|
+|000000c0| 75 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 |uenceIdxp.......|
+|000000d0| 00 74 00 03 31 31 31 74 00 08 7a 68 61 6e 67 73 |.t..111t..zhangs|
+|000000e0| 61 6e                                           |an              |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:45:28.060  INFO  [nioEventLoopGroup-3-2] c.s.c.p.MessageCodecSharable - decode...
+2024-06-23 21:45:28.060  INFO  [nioEventLoopGroup-3-2] c.s.c.p.MessageCodecSharable - decode message: magicNumber: 16909060, version: 1, serializeType: 0, messageType: 0, sequenceId: 0, length: 210, bytes: [-84, -19, 0, 5, 115, 114, 0, 43, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 76, 111, 103, 105, 110, 82, 101, 113, 117, 101, 115, 116, 77, 101, 115, 115, 97, 103, 101, 70, 53, 10, 87, 42, -25, -41, -12, 2, 0, 2, 76, 0, 8, 112, 97, 115, 115, 119, 111, 114, 100, 116, 0, 18, 76, 106, 97, 118, 97, 47, 108, 97, 110, 103, 47, 83, 116, 114, 105, 110, 103, 59, 76, 0, 8, 117, 115, 101, 114, 110, 97, 109, 101, 113, 0, 126, 0, 1, 120, 114, 0, 31, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 77, 101, 115, 115, 97, 103, 101, -97, -57, 54, -90, -88, -35, -125, 53, 2, 0, 2, 73, 0, 11, 109, 101, 115, 115, 97, 103, 101, 84, 121, 112, 101, 73, 0, 10, 115, 101, 113, 117, 101, 110, 99, 101, 73, 100, 120, 112, 0, 0, 0, 0, 0, 0, 0, 0, 116, 0, 3, 49, 49, 49, 116, 0, 8, 122, 104, 97, 110, 103, 115, 97, 110]
+2024-06-23 21:45:28.061  INFO  [nioEventLoopGroup-3-2] c.s.c.p.MessageCodecSharable - decode message: LoginRequestMessage(super=Message(sequenceId=0, messageType=0), username=zhangsan, password=111)
+2024-06-23 21:45:28.061  INFO  [nioEventLoopGroup-3-2] c.s.c.p.MessageCodecSharable - encode...
+2024-06-23 21:45:28.061  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 - R:/127.0.0.1:59306] WRITE: 292B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 14 |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6f 6d 2e 73 6e 77 6f |....sr.,com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 73 70 6f 6e 73 65 4d 65 73 |LoginResponseMes|
+|00000040| 73 61 67 65 27 ab cb 2e 95 d9 9e 6e 02 00 00 78 |sage'......n...x|
+|00000050| 72 00 2f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 |r./com.snwolf.ch|
+|00000060| 61 74 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 |at.message.Abstr|
+|00000070| 61 63 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 |actResponseMessa|
+|00000080| 67 65 1f 89 71 8c b0 b3 b5 6d 02 00 02 5a 00 07 |ge..q....m...Z..|
+|00000090| 73 75 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e |successL..reason|
+|000000a0| 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 |t..Ljava/lang/St|
+|000000b0| 72 69 6e 67 3b 78 72 00 1f 63 6f 6d 2e 73 6e 77 |ring;xr..com.snw|
+|000000c0| 6f 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 |olf.chat.message|
+|000000d0| 2e 4d 65 73 73 61 67 65 9f c7 36 a6 a8 dd 83 35 |.Message..6....5|
+|000000e0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000f0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000100| 00 00 00 00 00 00 00 00 00 74 00 18 e7 94 a8 e6 |.........t......|
+|00000110| 88 b7 e5 90 8d e6 88 96 e5 af 86 e7 a0 81 e9 94 |................|
+|00000120| 99 e8 af af                                     |....            |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:45:28.061  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 - R:/127.0.0.1:59306] FLUSH
+2024-06-23 21:45:28.061  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 - R:/127.0.0.1:59306] READ COMPLETE
+2024-06-23 21:45:28.063  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832, L:/127.0.0.1:59306 - R:localhost/127.0.0.1:8080] READ: 292B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 14 |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6f 6d 2e 73 6e 77 6f |....sr.,com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 73 70 6f 6e 73 65 4d 65 73 |LoginResponseMes|
+|00000040| 73 61 67 65 27 ab cb 2e 95 d9 9e 6e 02 00 00 78 |sage'......n...x|
+|00000050| 72 00 2f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 |r./com.snwolf.ch|
+|00000060| 61 74 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 |at.message.Abstr|
+|00000070| 61 63 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 |actResponseMessa|
+|00000080| 67 65 1f 89 71 8c b0 b3 b5 6d 02 00 02 5a 00 07 |ge..q....m...Z..|
+|00000090| 73 75 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e |successL..reason|
+|000000a0| 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 |t..Ljava/lang/St|
+|000000b0| 72 69 6e 67 3b 78 72 00 1f 63 6f 6d 2e 73 6e 77 |ring;xr..com.snw|
+|000000c0| 6f 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 |olf.chat.message|
+|000000d0| 2e 4d 65 73 73 61 67 65 9f c7 36 a6 a8 dd 83 35 |.Message..6....5|
+|000000e0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000f0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000100| 00 00 00 00 00 00 00 00 00 74 00 18 e7 94 a8 e6 |.........t......|
+|00000110| 88 b7 e5 90 8d e6 88 96 e5 af 86 e7 a0 81 e9 94 |................|
+|00000120| 99 e8 af af                                     |....            |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:45:28.063  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode...
+2024-06-23 21:45:28.063  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: magicNumber: 16909060, version: 1, serializeType: 0, messageType: 1, sequenceId: 0, length: 276, bytes: [-84, -19, 0, 5, 115, 114, 0, 44, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 76, 111, 103, 105, 110, 82, 101, 115, 112, 111, 110, 115, 101, 77, 101, 115, 115, 97, 103, 101, 39, -85, -53, 46, -107, -39, -98, 110, 2, 0, 0, 120, 114, 0, 47, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 65, 98, 115, 116, 114, 97, 99, 116, 82, 101, 115, 112, 111, 110, 115, 101, 77, 101, 115, 115, 97, 103, 101, 31, -119, 113, -116, -80, -77, -75, 109, 2, 0, 2, 90, 0, 7, 115, 117, 99, 99, 101, 115, 115, 76, 0, 6, 114, 101, 97, 115, 111, 110, 116, 0, 18, 76, 106, 97, 118, 97, 47, 108, 97, 110, 103, 47, 83, 116, 114, 105, 110, 103, 59, 120, 114, 0, 31, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 77, 101, 115, 115, 97, 103, 101, -97, -57, 54, -90, -88, -35, -125, 53, 2, 0, 2, 73, 0, 11, 109, 101, 115, 115, 97, 103, 101, 84, 121, 112, 101, 73, 0, 10, 115, 101, 113, 117, 101, 110, 99, 101, 73, 100, 120, 112, 0, 0, 0, 0, 0, 0, 0, 0, 0, 116, 0, 24, -25, -108, -88, -26, -120, -73, -27, -112, -115, -26, -120, -106, -27, -81, -122, -25, -96, -127, -23, -108, -103, -24, -81, -81]
+2024-06-23 21:45:28.066  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: LoginResponseMessage(super=AbstractResponseMessage(super=Message(sequenceId=0, messageType=1), success=false, reason=用户名或密码错误))
+2024-06-23 21:45:28.066  INFO  [nioEventLoopGroup-2-1] c.s.c.c.ChatClient - read message: LoginResponseMessage(super=AbstractResponseMessage(super=Message(sequenceId=0, messageType=1), success=false, reason=用户名或密码错误))
+2024-06-23 21:45:28.066  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832, L:/127.0.0.1:59306 - R:localhost/127.0.0.1:8080] READ COMPLETE
+2024-06-23 21:45:28.072  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832, L:/127.0.0.1:59306 - R:localhost/127.0.0.1:8080] CLOSE
+2024-06-23 21:45:28.072  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 - R:/127.0.0.1:59306] READ COMPLETE
+2024-06-23 21:45:28.072  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 ! R:/127.0.0.1:59306] INACTIVE
+2024-06-23 21:45:28.072  DEBUG [nioEventLoopGroup-3-2] i.n.h.l.LoggingHandler - [id: 0x1d832853, L:/127.0.0.1:8080 ! R:/127.0.0.1:59306] UNREGISTERED
+2024-06-23 21:45:28.081  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832, L:/127.0.0.1:59306 ! R:localhost/127.0.0.1:8080] INACTIVE
+2024-06-23 21:45:28.081  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xe8939832, L:/127.0.0.1:59306 ! R:localhost/127.0.0.1:8080] UNREGISTERED
+2024-06-23 21:45:30.318  DEBUG [nioEventLoopGroup-2-1] i.n.b.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+2024-06-23 21:45:40.958  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-06-23 21:45:40.961  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-06-23 21:45:40.970  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-06-23 21:45:40.971  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-06-23 21:45:40.975  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-06-23 21:45:40.975  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-06-23 21:45:40.983  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-06-23 21:45:40.985  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-06-23 21:45:40.985  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-06-23 21:45:40.986  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-06-23 21:45:40.986  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-06-23 21:45:40.986  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-06-23 21:45:40.987  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-06-23 21:45:40.987  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-06-23 21:45:40.987  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-06-23 21:45:40.987  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-06-23 21:45:40.987  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-06-23 21:45:40.988  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-06-23 21:45:40.988  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-06-23 21:45:40.988  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-06-23 21:45:40.988  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-06-23 21:45:40.989  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-06-23 21:45:40.989  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-06-23 21:45:40.993  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-06-23 21:45:41.288  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 66720 (auto-detected)
+2024-06-23 21:45:41.289  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-06-23 21:45:41.289  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-06-23 21:45:41.479  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-06-23 21:45:41.480  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-06-23 21:45:41.676  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-06-23 21:45:41.686  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-06-23 21:45:41.686  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-06-23 21:45:41.700  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-06-23 21:45:41.701  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-06-23 21:45:41.702  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-06-23 21:45:41.702  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-06-23 21:45:41.707  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-06-23 21:45:41.707  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-06-23 21:45:41.707  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-06-23 21:45:41.726  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xd267381d] REGISTERED
+2024-06-23 21:45:41.726  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xd267381d] CONNECT: localhost/127.0.0.1:8080
+2024-06-23 21:45:41.728  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 - R:/127.0.0.1:59487] REGISTERED
+2024-06-23 21:45:41.728  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 - R:/127.0.0.1:59487] ACTIVE
+2024-06-23 21:45:41.728  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xd267381d, L:/127.0.0.1:59487 - R:localhost/127.0.0.1:8080] ACTIVE
+2024-06-23 21:45:45.469  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-06-23 21:45:45.470  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-06-23 21:45:45.470  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-06-23 21:45:45.470  DEBUG [system-in] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-06-23 21:45:45.476  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-06-23 21:45:45.476  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-06-23 21:45:45.477  DEBUG [nioEventLoopGroup-2-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1e6cd5b2
+2024-06-23 21:45:45.478  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - encode...
+2024-06-23 21:45:45.483  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xd267381d, L:/127.0.0.1:59487 - R:localhost/127.0.0.1:8080] WRITE: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 d2 |................|
+|00000010| ac ed 00 05 73 72 00 2b 63 6f 6d 2e 73 6e 77 6f |....sr.+com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 71 75 65 73 74 4d 65 73 73 |LoginRequestMess|
+|00000040| 61 67 65 46 35 0a 57 2a e7 d7 f4 02 00 02 4c 00 |ageF5.W*......L.|
+|00000050| 08 70 61 73 73 77 6f 72 64 74 00 12 4c 6a 61 76 |.passwordt..Ljav|
+|00000060| 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 |a/lang/String;L.|
+|00000070| 08 75 73 65 72 6e 61 6d 65 71 00 7e 00 01 78 72 |.usernameq.~..xr|
+|00000080| 00 1f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |..com.snwolf.cha|
+|00000090| 74 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 |t.message.Messag|
+|000000a0| 65 9f c7 36 a6 a8 dd 83 35 02 00 02 49 00 0b 6d |e..6....5...I..m|
+|000000b0| 65 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 |essageTypeI..seq|
+|000000c0| 75 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 |uenceIdxp.......|
+|000000d0| 00 74 00 03 31 32 33 74 00 08 7a 68 61 6e 67 73 |.t..123t..zhangs|
+|000000e0| 61 6e                                           |an              |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:45:45.484  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xd267381d, L:/127.0.0.1:59487 - R:localhost/127.0.0.1:8080] FLUSH
+2024-06-23 21:45:45.484  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 - R:/127.0.0.1:59487] READ: 226B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 00 00 00 00 00 ff 00 00 00 d2 |................|
+|00000010| ac ed 00 05 73 72 00 2b 63 6f 6d 2e 73 6e 77 6f |....sr.+com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 71 75 65 73 74 4d 65 73 73 |LoginRequestMess|
+|00000040| 61 67 65 46 35 0a 57 2a e7 d7 f4 02 00 02 4c 00 |ageF5.W*......L.|
+|00000050| 08 70 61 73 73 77 6f 72 64 74 00 12 4c 6a 61 76 |.passwordt..Ljav|
+|00000060| 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 4c 00 |a/lang/String;L.|
+|00000070| 08 75 73 65 72 6e 61 6d 65 71 00 7e 00 01 78 72 |.usernameq.~..xr|
+|00000080| 00 1f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |..com.snwolf.cha|
+|00000090| 74 2e 6d 65 73 73 61 67 65 2e 4d 65 73 73 61 67 |t.message.Messag|
+|000000a0| 65 9f c7 36 a6 a8 dd 83 35 02 00 02 49 00 0b 6d |e..6....5...I..m|
+|000000b0| 65 73 73 61 67 65 54 79 70 65 49 00 0a 73 65 71 |essageTypeI..seq|
+|000000c0| 75 65 6e 63 65 49 64 78 70 00 00 00 00 00 00 00 |uenceIdxp.......|
+|000000d0| 00 74 00 03 31 32 33 74 00 08 7a 68 61 6e 67 73 |.t..123t..zhangs|
+|000000e0| 61 6e                                           |an              |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:45:45.485  INFO  [nioEventLoopGroup-3-3] c.s.c.p.MessageCodecSharable - decode...
+2024-06-23 21:45:45.485  INFO  [nioEventLoopGroup-3-3] c.s.c.p.MessageCodecSharable - decode message: magicNumber: 16909060, version: 1, serializeType: 0, messageType: 0, sequenceId: 0, length: 210, bytes: [-84, -19, 0, 5, 115, 114, 0, 43, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 76, 111, 103, 105, 110, 82, 101, 113, 117, 101, 115, 116, 77, 101, 115, 115, 97, 103, 101, 70, 53, 10, 87, 42, -25, -41, -12, 2, 0, 2, 76, 0, 8, 112, 97, 115, 115, 119, 111, 114, 100, 116, 0, 18, 76, 106, 97, 118, 97, 47, 108, 97, 110, 103, 47, 83, 116, 114, 105, 110, 103, 59, 76, 0, 8, 117, 115, 101, 114, 110, 97, 109, 101, 113, 0, 126, 0, 1, 120, 114, 0, 31, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 77, 101, 115, 115, 97, 103, 101, -97, -57, 54, -90, -88, -35, -125, 53, 2, 0, 2, 73, 0, 11, 109, 101, 115, 115, 97, 103, 101, 84, 121, 112, 101, 73, 0, 10, 115, 101, 113, 117, 101, 110, 99, 101, 73, 100, 120, 112, 0, 0, 0, 0, 0, 0, 0, 0, 116, 0, 3, 49, 50, 51, 116, 0, 8, 122, 104, 97, 110, 103, 115, 97, 110]
+2024-06-23 21:45:45.485  INFO  [nioEventLoopGroup-3-3] c.s.c.p.MessageCodecSharable - decode message: LoginRequestMessage(super=Message(sequenceId=0, messageType=0), username=zhangsan, password=123)
+2024-06-23 21:45:45.485  INFO  [nioEventLoopGroup-3-3] c.s.c.p.MessageCodecSharable - encode...
+2024-06-23 21:45:45.485  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 - R:/127.0.0.1:59487] WRITE: 280B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 08 |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6f 6d 2e 73 6e 77 6f |....sr.,com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 73 70 6f 6e 73 65 4d 65 73 |LoginResponseMes|
+|00000040| 73 61 67 65 27 ab cb 2e 95 d9 9e 6e 02 00 00 78 |sage'......n...x|
+|00000050| 72 00 2f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 |r./com.snwolf.ch|
+|00000060| 61 74 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 |at.message.Abstr|
+|00000070| 61 63 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 |actResponseMessa|
+|00000080| 67 65 1f 89 71 8c b0 b3 b5 6d 02 00 02 5a 00 07 |ge..q....m...Z..|
+|00000090| 73 75 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e |successL..reason|
+|000000a0| 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 |t..Ljava/lang/St|
+|000000b0| 72 69 6e 67 3b 78 72 00 1f 63 6f 6d 2e 73 6e 77 |ring;xr..com.snw|
+|000000c0| 6f 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 |olf.chat.message|
+|000000d0| 2e 4d 65 73 73 61 67 65 9f c7 36 a6 a8 dd 83 35 |.Message..6....5|
+|000000e0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000f0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000100| 00 00 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 |.........t......|
+|00000110| bd 95 e6 88 90 e5 8a 9f                         |........        |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:45:45.485  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 - R:/127.0.0.1:59487] FLUSH
+2024-06-23 21:45:45.486  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 - R:/127.0.0.1:59487] READ COMPLETE
+2024-06-23 21:45:45.487  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xd267381d, L:/127.0.0.1:59487 - R:localhost/127.0.0.1:8080] READ: 280B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 00 01 00 00 00 00 ff 00 00 01 08 |................|
+|00000010| ac ed 00 05 73 72 00 2c 63 6f 6d 2e 73 6e 77 6f |....sr.,com.snwo|
+|00000020| 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 2e |lf.chat.message.|
+|00000030| 4c 6f 67 69 6e 52 65 73 70 6f 6e 73 65 4d 65 73 |LoginResponseMes|
+|00000040| 73 61 67 65 27 ab cb 2e 95 d9 9e 6e 02 00 00 78 |sage'......n...x|
+|00000050| 72 00 2f 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 |r./com.snwolf.ch|
+|00000060| 61 74 2e 6d 65 73 73 61 67 65 2e 41 62 73 74 72 |at.message.Abstr|
+|00000070| 61 63 74 52 65 73 70 6f 6e 73 65 4d 65 73 73 61 |actResponseMessa|
+|00000080| 67 65 1f 89 71 8c b0 b3 b5 6d 02 00 02 5a 00 07 |ge..q....m...Z..|
+|00000090| 73 75 63 63 65 73 73 4c 00 06 72 65 61 73 6f 6e |successL..reason|
+|000000a0| 74 00 12 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 |t..Ljava/lang/St|
+|000000b0| 72 69 6e 67 3b 78 72 00 1f 63 6f 6d 2e 73 6e 77 |ring;xr..com.snw|
+|000000c0| 6f 6c 66 2e 63 68 61 74 2e 6d 65 73 73 61 67 65 |olf.chat.message|
+|000000d0| 2e 4d 65 73 73 61 67 65 9f c7 36 a6 a8 dd 83 35 |.Message..6....5|
+|000000e0| 02 00 02 49 00 0b 6d 65 73 73 61 67 65 54 79 70 |...I..messageTyp|
+|000000f0| 65 49 00 0a 73 65 71 75 65 6e 63 65 49 64 78 70 |eI..sequenceIdxp|
+|00000100| 00 00 00 00 00 00 00 00 01 74 00 0c e7 99 bb e5 |.........t......|
+|00000110| bd 95 e6 88 90 e5 8a 9f                         |........        |
++--------+-------------------------------------------------+----------------+
+2024-06-23 21:45:45.488  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode...
+2024-06-23 21:45:45.488  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: magicNumber: 16909060, version: 1, serializeType: 0, messageType: 1, sequenceId: 0, length: 264, bytes: [-84, -19, 0, 5, 115, 114, 0, 44, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 76, 111, 103, 105, 110, 82, 101, 115, 112, 111, 110, 115, 101, 77, 101, 115, 115, 97, 103, 101, 39, -85, -53, 46, -107, -39, -98, 110, 2, 0, 0, 120, 114, 0, 47, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 65, 98, 115, 116, 114, 97, 99, 116, 82, 101, 115, 112, 111, 110, 115, 101, 77, 101, 115, 115, 97, 103, 101, 31, -119, 113, -116, -80, -77, -75, 109, 2, 0, 2, 90, 0, 7, 115, 117, 99, 99, 101, 115, 115, 76, 0, 6, 114, 101, 97, 115, 111, 110, 116, 0, 18, 76, 106, 97, 118, 97, 47, 108, 97, 110, 103, 47, 83, 116, 114, 105, 110, 103, 59, 120, 114, 0, 31, 99, 111, 109, 46, 115, 110, 119, 111, 108, 102, 46, 99, 104, 97, 116, 46, 109, 101, 115, 115, 97, 103, 101, 46, 77, 101, 115, 115, 97, 103, 101, -97, -57, 54, -90, -88, -35, -125, 53, 2, 0, 2, 73, 0, 11, 109, 101, 115, 115, 97, 103, 101, 84, 121, 112, 101, 73, 0, 10, 115, 101, 113, 117, 101, 110, 99, 101, 73, 100, 120, 112, 0, 0, 0, 0, 0, 0, 0, 0, 1, 116, 0, 12, -25, -103, -69, -27, -67, -107, -26, -120, -112, -27, -118, -97]
+2024-06-23 21:45:45.490  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: LoginResponseMessage(super=AbstractResponseMessage(super=Message(sequenceId=0, messageType=1), success=true, reason=登录成功))
+2024-06-23 21:45:45.491  INFO  [nioEventLoopGroup-2-1] c.s.c.c.ChatClient - read message: LoginResponseMessage(super=AbstractResponseMessage(super=Message(sequenceId=0, messageType=1), success=true, reason=登录成功))
+2024-06-23 21:45:45.491  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xd267381d, L:/127.0.0.1:59487 - R:localhost/127.0.0.1:8080] READ COMPLETE
+2024-06-23 21:45:48.617  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 - R:/127.0.0.1:59487] READ COMPLETE
+2024-06-23 21:45:48.617  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 - R:/127.0.0.1:59487] EXCEPTION: java.io.IOException: An existing connection was forcibly closed by the remote host
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1140)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-06-23 21:45:48.617  WARN  [nioEventLoopGroup-3-3] i.n.c.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1140)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-06-23 21:45:48.618  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 ! R:/127.0.0.1:59487] INACTIVE
+2024-06-23 21:45:48.618  DEBUG [nioEventLoopGroup-3-3] i.n.h.l.LoggingHandler - [id: 0x5e821f86, L:/127.0.0.1:8080 ! R:/127.0.0.1:59487] UNREGISTERED
