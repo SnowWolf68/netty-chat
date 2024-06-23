@@ -51,3 +51,5 @@ p
 @src/main/java/com/snwolf/chat/protocol/ProtocolFrameDecoder.java,5\b\5b67eec34adf64b8cb8ab75eeb28338d13300a91
 d
 4src/main/java/com/snwolf/chat/client/ChatClient.java,f\9\f97b28bbeb55559db7aaf28d92e0bb165dfd09fb
+t
+Dsrc/main/java/com/snwolf/chat/server/service/UserServiceFactory.java,f\2\f217ba9dd3a934cee3b7d117d00cd9e46a6edb91

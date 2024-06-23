@@ -1,10 +1,12 @@
 package com.snwolf.chat.message;
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
 @Data
 @ToString(callSuper = true)
+@Builder
 public class LoginRequestMessage extends Message {
     private String username;
     private String password;

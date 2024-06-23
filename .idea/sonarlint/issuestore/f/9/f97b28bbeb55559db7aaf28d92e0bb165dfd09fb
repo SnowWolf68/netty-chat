@@ -1,5 +1,10 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÄÒóıÿÿÿÿ8ó¸ø¨„2
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ¤Ş8ó¸ø¨„2
-{
-java:S2142+"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ù¸ø¨„2
+˜	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÄÒóıÿÿÿÿ8–Ø”©„2J$19bbc109-4df9-4529-959a-8872ffe50136
+“	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ¤Ş8–Ø”©„2J$3e63e6a3-4e0f-4377-98ba-cf1cbf6aebc7
+¡
+java:S2142U"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Ø”©„2J$6d6d8552-02ea-4077-a8e2-3953d2637e79
+r	java:S106<"+Replace this use of System.out by a logger.(çÕ›Àùÿÿÿÿ8¢Ø”©„2J$bf82545d-344b-41bc-abe4-b0b4f1c4f35a
+r	java:S106>"+Replace this use of System.out by a logger.(ı‰şøÿÿÿÿ8§ş¿©„2J$cf35e38f-67e3-48cf-9644-8dbd4efa12d7
+G	java:S106H"+Replace this use of System.out by a logger.(“–Îï8‘àñ©„2
+r
+java:S2093#"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8£Ø”©„2J$6c53e4f9-deef-45f4-9c03-e03b73384526
