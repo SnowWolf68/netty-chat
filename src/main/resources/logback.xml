@@ -45,7 +45,7 @@
     </logger>
 
     <!--如果想要更改控制台的日志打印级别, 就更改下面的level属性-->
-    <root level="INFO">
+    <root level="debug">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
         <appender-ref ref="RollingFile" />

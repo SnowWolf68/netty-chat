@@ -1,12 +1,9 @@
 package com.snwolf.chat.protocol;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.snwolf.chat.message.Message;
 import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufUtil;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageCodec;
-import io.netty.handler.codec.string.LineSeparator;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.ByteArrayInputStream;
@@ -23,8 +20,6 @@ import java.util.List;
  */
 @Slf4j
 public class MessageCodec extends ByteToMessageCodec<Message> {
-
-    private final ObjectMapper objectMapper = new ObjectMapper();
 
     /**
      * 将msg这个Message类型的消息按照自定义协议编码成ByteBuf
@@ -58,8 +53,6 @@ public class MessageCodec extends ByteToMessageCodec<Message> {
         out.writeInt(bytes.length);
         // 消息正文
         out.writeBytes(bytes);
-
-        log.info("out: " + ByteBufUtil.prettyHexDump(out));
     }
 
     /**
