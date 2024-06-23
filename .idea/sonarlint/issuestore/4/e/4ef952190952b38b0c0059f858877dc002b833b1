@@ -1,5 +1,3 @@
 
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(í†€ô8Ú¼â„2J$219048e4-8e92-4450-bd0d-0fd2dc788bca
-É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÂĞ˜øÿÿÿÿ8Ú¼â„2J$77b62d0a-d926-4f89-b719-9a04c3e8e388
+x
+java:S1068"0Remove this unused "objectMapper" private field.(­ãĞåüÿÿÿÿ8ŠñÓ¡„2J$f01170bd-7e21-4cb7-993f-f5729cb41966

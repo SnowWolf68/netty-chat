@@ -1,0 +1,15 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºãš¡
+U
+java:S1118
+":Add a private constructor to hide the implicit public one.(Ý”×Ÿüÿÿÿÿ
+?	java:S106Q"+Replace this use of System.out by a logger.(üŽ¯~
+l
+java:S3457R"Q%n should be used in place of \n to produce the platform-specific line separator.(Ô ú»ýÿÿÿÿ
+E	java:S106R"+Replace this use of System.out by a logger.(Ô ú»ýÿÿÿÿ
+E	java:S106S"+Replace this use of System.out by a logger.(Šê¶Øúÿÿÿÿ
+@	java:S106^"+Replace this use of System.out by a logger.(°ù“Š
+f
+java:S3457_"Q%n should be used in place of \n to produce the platform-specific line separator.(«žâi
+?	java:S106_"+Replace this use of System.out by a logger.(«žâi
+@	java:S106`"+Replace this use of System.out by a logger.(¨—êù
