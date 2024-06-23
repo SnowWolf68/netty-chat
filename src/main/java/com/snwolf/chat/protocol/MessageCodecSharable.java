@@ -18,6 +18,7 @@ import java.util.List;
  * @Version: V1.0
  * @Date: 6/23/2024
  * @Description: 可添加@Sharable注解的自定义编解码器
+ * @Note: 必须保证ByteBuf中粘包, 半包的问题已经在前面的Handler中正确处理完成
  */
 @Slf4j
 @ChannelHandler.Sharable

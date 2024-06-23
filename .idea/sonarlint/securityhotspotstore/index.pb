@@ -49,3 +49,5 @@ x
 Hsrc/main/java/com/snwolf/chat/server/session/GroupSessionMemoryImpl.java,a\2\a249e58c4ba3970a9af1b3cbac47892a1b02d417
 p
 @src/main/java/com/snwolf/chat/protocol/ProtocolFrameDecoder.java,5\b\5b67eec34adf64b8cb8ab75eeb28338d13300a91
+d
+4src/main/java/com/snwolf/chat/client/ChatClient.java,f\9\f97b28bbeb55559db7aaf28d92e0bb165dfd09fb
