@@ -77,3 +77,5 @@ r
 Bsrc/main/java/com/snwolf/chat/message/GroupQuitRequestMessage.java,9\b\9b71490425be44f39df38fc5ebae3857d1d3e68e
 s
 Csrc/main/java/com/snwolf/chat/message/GroupQuitResponseMessage.java,9\8\985e789194eab7efd5b83ee6937e5ab4eec312d7
+m
+=src/main/java/com/snwolf/chat/server/handler/QuitHandler.java,a\a\aae5ea4754436a1951354be0f094d7d0745249ec
