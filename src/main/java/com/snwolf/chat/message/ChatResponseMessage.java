@@ -1,10 +1,12 @@
 package com.snwolf.chat.message;
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
 @Data
 @ToString(callSuper = true)
+@Builder
 public class ChatResponseMessage extends AbstractResponseMessage {
 
     private String from;

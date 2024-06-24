@@ -2,6 +2,7 @@ package com.snwolf.chat.server;
 
 import com.snwolf.chat.protocol.MessageCodecSharable;
 import com.snwolf.chat.protocol.ProtocolFrameDecoder;
+import com.snwolf.chat.server.handler.ChatRequestMessageHandler;
 import com.snwolf.chat.server.handler.LoginRequestMessageHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -28,6 +29,10 @@ public class ChatServer {
 
         LoggingHandler LOGGING_HANDLER = new LoggingHandler(LogLevel.DEBUG);
         MessageCodecSharable MESSAGE_CODEC = new MessageCodecSharable();
+        LoginRequestMessageHandler LOGIN_HANDLER = new LoginRequestMessageHandler();
+        ChatRequestMessageHandler CHAT_HANDLER = new ChatRequestMessageHandler();
+
+
 
         try {
             ServerBootstrap bootstrap = new ServerBootstrap();
@@ -39,7 +44,8 @@ public class ChatServer {
                     ch.pipeline().addLast(new ProtocolFrameDecoder());
                     ch.pipeline().addLast(LOGGING_HANDLER);
                     ch.pipeline().addLast(MESSAGE_CODEC);
-                    ch.pipeline().addLast(new LoginRequestMessageHandler());
+                    ch.pipeline().addLast(LOGIN_HANDLER);
+                    ch.pipeline().addLast(CHAT_HANDLER);
                 }
             });
             ChannelFuture channelFuture = bootstrap.bind(8080).sync();

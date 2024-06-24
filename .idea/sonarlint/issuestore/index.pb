@@ -47,3 +47,7 @@ p
 @src/main/java/com/snwolf/chat/server/session/SessionFactory.java,3\c\3cafb2b76cb22d4696d1421fc37734f48acc0401
 |
 Lsrc/main/java/com/snwolf/chat/server/handler/LoginRequestMessageHandler.java,3\5\35abe4193b67c16209425060e285058a8fb51306
+{
+Ksrc/main/java/com/snwolf/chat/server/handler/ChatRequestMessageHandler.java,5\7\57e0065d45dd8fb6d051e69b758ae31276d33104
+n
+>src/main/java/com/snwolf/chat/message/ChatResponseMessage.java,7\5\75f112515901901185597efae271d1b8f650b4d2
