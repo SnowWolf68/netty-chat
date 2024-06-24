@@ -2,8 +2,7 @@ package com.snwolf.chat.server;
 
 import com.snwolf.chat.protocol.MessageCodecSharable;
 import com.snwolf.chat.protocol.ProtocolFrameDecoder;
-import com.snwolf.chat.server.handler.ChatRequestMessageHandler;
-import com.snwolf.chat.server.handler.LoginRequestMessageHandler;
+import com.snwolf.chat.server.handler.*;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -31,8 +30,11 @@ public class ChatServer {
         MessageCodecSharable MESSAGE_CODEC = new MessageCodecSharable();
         LoginRequestMessageHandler LOGIN_HANDLER = new LoginRequestMessageHandler();
         ChatRequestMessageHandler CHAT_HANDLER = new ChatRequestMessageHandler();
-
-
+        GroupCreateRequestMessageHandler GROUP_CREATE_HANDLER = new GroupCreateRequestMessageHandler();
+        GroupJoinRequestMessageHandler GROUP_JOIN_HANDLER = new GroupJoinRequestMessageHandler();
+        GroupMembersRequestMessageHandler GROUP_MEMBERS_HANDLER = new GroupMembersRequestMessageHandler();
+        GroupQuitRequestMessageHandler GROUP_QUIT_HANDLER = new GroupQuitRequestMessageHandler();
+        GroupChatRequestMessageHandler GROUP_CHAT_HANDLER = new GroupChatRequestMessageHandler();
 
         try {
             ServerBootstrap bootstrap = new ServerBootstrap();
@@ -46,6 +48,11 @@ public class ChatServer {
                     ch.pipeline().addLast(MESSAGE_CODEC);
                     ch.pipeline().addLast(LOGIN_HANDLER);
                     ch.pipeline().addLast(CHAT_HANDLER);
+                    ch.pipeline().addLast(GROUP_CREATE_HANDLER);
+                    ch.pipeline().addLast(GROUP_JOIN_HANDLER);
+                    ch.pipeline().addLast(GROUP_MEMBERS_HANDLER);
+                    ch.pipeline().addLast(GROUP_QUIT_HANDLER);
+                    ch.pipeline().addLast(GROUP_CHAT_HANDLER);
                 }
             });
             ChannelFuture channelFuture = bootstrap.bind(8080).sync();

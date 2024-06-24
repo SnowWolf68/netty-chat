@@ -1,25 +1,25 @@
 
-r	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÄÒóıÿÿÿÿ8±Š«„2
-m	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ¤Ş8±Š«„2
-m	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨êà®8±Š«„2
-m	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù–ÎÆ8±Š«„2
-o
-java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Çµí‘8‹±Š«„2
-|
-java:S2142Š"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8±Š«„2
-L	java:S106I"+Replace this use of System.out by a logger.(çÕ›Àùÿÿÿÿ8•±Š«„2
-L	java:S106K"+Replace this use of System.out by a logger.(ı‰şøÿÿÿÿ8•±Š«„2
-|
-java:S2142€"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8•±Š«„2
-G	java:S106]"+Replace this use of System.out by a logger.(ÄºÎ”8–±Š«„2
-L	java:S106^"+Replace this use of System.out by a logger.(°ÎåÃüÿÿÿÿ8–±Š«„2
-L	java:S106_"+Replace this use of System.out by a logger.(«Ê×ûÿÿÿÿ8–±Š«„2
-G	java:S106`"+Replace this use of System.out by a logger.(‘µ’ğ8–±Š«„2
-G	java:S106a"+Replace this use of System.out by a logger.(Û™‰8–±Š«„2
-L	java:S106b"+Replace this use of System.out by a logger.(Ê“üÿÿÿÿ8–±Š«„2
-L	java:S106c"+Replace this use of System.out by a logger.(ü…ï»ùÿÿÿÿ8–±Š«„2
-G	java:S106d"+Replace this use of System.out by a logger.(”Ñ¸ª8–±Š«„2
-G	java:S106e"+Replace this use of System.out by a logger.(ÄºÎ”8—±Š«„2
-=	java:S131h""Add a default case to this switch.(ÔùèJ8˜±Š«„2
-L
-java:S2093*"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8š±Š«„2
+˜	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÄÒóıÿÿÿÿ8ÈµÌÂ„2J$e119e6ea-614f-4d57-845c-a5ec7fe63240
+“	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ¤Ş8ÈµÌÂ„2J$4dded64a-161a-4010-a6fe-08f406a0ab72
+“	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨êà®8ÈµÌÂ„2J$d1ae39e6-6c3c-4734-b503-9d196e5c26ea
+“	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù–ÎÆ8ÈµÌÂ„2J$1ffd019d-f821-42e7-be75-821e0630295e
+•
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Çµí‘8ÏµÌÂ„2J$96fb70e1-b292-4581-8f34-d5a4205220b6
+¢
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÒµÌÂ„2J$68616397-3069-421f-80c5-3858c914bf79
+r	java:S106I"+Replace this use of System.out by a logger.(çÕ›Àùÿÿÿÿ8ÜµÌÂ„2J$d391864f-ed7d-493e-8563-beea202cfc7e
+r	java:S106K"+Replace this use of System.out by a logger.(ı‰şøÿÿÿÿ8ÜµÌÂ„2J$2026de9b-810c-48f7-b366-a04f024e8ae0
+¢
+java:S2142ƒ"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ŞµÌÂ„2J$37a9cda3-3239-4836-85cc-413533fcfede
+m	java:S106]"+Replace this use of System.out by a logger.(ÄºÎ”8ŞµÌÂ„2J$b49add12-d401-4759-a273-2a6cb6d15c7d
+r	java:S106^"+Replace this use of System.out by a logger.(°ÎåÃüÿÿÿÿ8ŞµÌÂ„2J$bb0073d4-2179-41cd-ab83-9118beea6c60
+r	java:S106_"+Replace this use of System.out by a logger.(«Ê×ûÿÿÿÿ8ŞµÌÂ„2J$86246ea2-807f-4ac2-9337-53e6b767c4df
+m	java:S106`"+Replace this use of System.out by a logger.(‘µ’ğ8ŞµÌÂ„2J$4e5f2dbc-d9e1-41d0-bfb5-6e5074c7523e
+m	java:S106a"+Replace this use of System.out by a logger.(Û™‰8ŞµÌÂ„2J$93f3ca10-472a-4776-b6b3-1f3726d2bc1b
+r	java:S106b"+Replace this use of System.out by a logger.(Ê“üÿÿÿÿ8ßµÌÂ„2J$ec72b09a-8165-4242-845a-075cf3472b1a
+r	java:S106c"+Replace this use of System.out by a logger.(ü…ï»ùÿÿÿÿ8ßµÌÂ„2J$c2745a2d-740f-40ed-8454-cce82fb36fc7
+m	java:S106d"+Replace this use of System.out by a logger.(”Ñ¸ª8ßµÌÂ„2J$6ff0bc98-cbb6-4fcc-b5ef-07e71441ceb8
+m	java:S106e"+Replace this use of System.out by a logger.(ÄºÎ”8ßµÌÂ„2J$838f0083-7a49-4202-bed0-b2b5301a2d3b
+c	java:S131h""Add a default case to this switch.(ÔùèJ8àµÌÂ„2J$e134167a-f73b-4122-817e-3508434e5485
+r
+java:S2093*"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ãµÌÂ„2J$2cbbb069-af17-4dc6-bc8f-e6584016c9c3

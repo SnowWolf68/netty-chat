@@ -109,7 +109,10 @@ public class ChatClient {
                                                 ctx.writeAndFlush(new GroupChatRequestMessage(username, s[1], s[2]));
                                                 break;
                                             case "gcreate":
-                                                ctx.writeAndFlush(new GroupCreateRequestMessage(s[1], new HashSet<>(Arrays.asList(s[2].split(",")))));
+                                                HashSet<String> membersSet = new HashSet<>(Arrays.asList(s[2].split(",")));
+                                                // 建群的时候不要忘了把自己添加进去
+                                                membersSet.add(username);
+                                                ctx.writeAndFlush(new GroupCreateRequestMessage(s[1], membersSet));
                                                 break;
                                             case "gmembers":
                                                 ctx.writeAndFlush(new GroupMembersRequestMessage(s[1]));

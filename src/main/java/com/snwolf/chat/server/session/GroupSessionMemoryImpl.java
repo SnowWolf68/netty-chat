@@ -1,8 +1,13 @@
 package com.snwolf.chat.server.session;
 
+import io.netty.channel.Channel;
+
+import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.stream.Collectors;
 
 public class GroupSessionMemoryImpl implements GroupSession {
     private final Map<String, Group> groupMap = new ConcurrentHashMap<>();
@@ -37,5 +42,13 @@ public class GroupSessionMemoryImpl implements GroupSession {
     @Override
     public Set<String> getMembers(String name) {
         return groupMap.getOrDefault(name, Group.EMPTY_GROUP).getMembers();
+    }
+
+    @Override
+    public List<Channel> getMembersChannel(String name) {
+        return getMembers(name).stream()
+                .map(member -> SessionFactory.getSession().getChannel(member))
+                .filter(Objects::nonNull)
+                .collect(Collectors.toList());
     }
 }

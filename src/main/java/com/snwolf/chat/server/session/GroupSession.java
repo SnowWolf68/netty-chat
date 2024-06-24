@@ -1,5 +1,8 @@
 package com.snwolf.chat.server.session;
 
+import io.netty.channel.Channel;
+
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -44,4 +47,11 @@ public interface GroupSession {
      * @return 成员集合, 如果群不存在或没有成员会返回 empty set
      */
     Set<String> getMembers(String name);
+
+    /**
+     * 获取组成员的 channel 集合, 只有在线的 channel 才会返回
+     * @param name 组名
+     * @return 成员 channel 集合
+     */
+    List<Channel> getMembersChannel(String name);
 }
