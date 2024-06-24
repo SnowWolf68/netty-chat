@@ -1,5 +1,6 @@
 package com.snwolf.chat.protocol;
 
+import com.snwolf.chat.config.Config;
 import com.snwolf.chat.message.Message;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler;
@@ -33,7 +34,7 @@ public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message
         // 版本号
         out.writeByte(1);
         // 序列化方法
-        out.writeByte(0);
+        out.writeByte(Config.getSerializerAlgorithm().ordinal());
         // 指令类型
         out.writeByte(msg.getMessageType());
         // 请求序号
@@ -41,11 +42,12 @@ public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message
         // 对齐填充1个字节
         out.writeByte(0xff);
         // 使用jdk的序列化方式, 获取msg内容的字节数组
-        ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        ObjectOutputStream oos = new ObjectOutputStream(bos);
-        oos.writeObject(msg);
+//        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+//        ObjectOutputStream oos = new ObjectOutputStream(bos);
+//        oos.writeObject(msg);
         // 得到字节数组
-        byte[] bytes = bos.toByteArray();
+//        byte[] bytes = bos.toByteArray();
+        byte[] bytes = Config.getSerializerAlgorithm().serialize(msg);
         // 正文长度
         out.writeInt(bytes.length);
         // 消息正文
@@ -74,18 +76,26 @@ public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message
         byte[] bytes = new byte[length];
         in.readBytes(bytes);
 
-        log.info("decode message: magicNumber: {}, version: {}, serializeType: {}, messageType: {}, sequenceId: {}, length: {}, bytes: {}", magicNumber, version, serializeType, messageType, sequenceId, length, bytes);
+//        log.info("decode message: magicNumber: {}, version: {}, serializeType: {}, messageType: {}, sequenceId: {}, length: {}, bytes: {}", magicNumber, version, serializeType, messageType, sequenceId, length, bytes);
 
-        // 将内容的bytes反序列化成msg对象
+        Serializer.SerializeAlgo serializeAlgo = Serializer.SerializeAlgo.values()[serializeType];
+
+        Message message = serializeAlgo.deserialize(Message.getMessageClass(messageType), bytes);
+        log.info("decode message: {}", message);
+
+        /*// 将内容的bytes反序列化成msg对象
         if(serializeType == 0){
             // jdk 序列化方式
-            ObjectInputStream ois = new ObjectInputStream(new ByteArrayInputStream(bytes));
-            Message message = (Message) ois.readObject();
+//            ObjectInputStream ois = new ObjectInputStream(new ByteArrayInputStream(bytes));
+//            Message message = (Message) ois.readObject();
+            Serializer.SerializeAlgo serializeAlgo = Serializer.SerializeAlgo.values()[serializeType];
+
+            Message message = serializeAlgo.deserialize(Message.getMessageClass(messageType), bytes);
             log.info("decode message: {}", message);
 
             out.add(message);
         }else{
             log.error("serialize type not supported: {}", serializeType);
-        }
+        }*/
     }
 }

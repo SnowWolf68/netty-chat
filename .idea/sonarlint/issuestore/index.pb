@@ -79,3 +79,9 @@ s
 Csrc/main/java/com/snwolf/chat/message/GroupQuitResponseMessage.java,9\8\985e789194eab7efd5b83ee6937e5ab4eec312d7
 m
 =src/main/java/com/snwolf/chat/server/handler/QuitHandler.java,a\a\aae5ea4754436a1951354be0f094d7d0745249ec
+f
+6src/main/java/com/snwolf/chat/protocol/Serializer.java,f\a\fa49c8e9eb2c2a3b717033970c223ea85732de89
+`
+0src/main/java/com/snwolf/chat/config/Config.java,e\9\e906c9c4dbc91b2094162cd0d006ff991796da9d
+o
+?src/test/java/com/snwolf/chat/protocol/TestMultiSerializer.java,f\2\f23c5f810eb7fdb8ac678f3090d8bd9f09f057f7
