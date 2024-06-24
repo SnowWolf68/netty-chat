@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-R
-"src/main/java/com/snwolf/Main.java,9\a\9a9f6631bd4f97dc6b54280d2fc3e11c29e3bc42
 h
 8src/main/java/com/snwolf/chat/protocol/MessageCodec.java,4\e\4ef952190952b38b0c0059f858877dc002b833b1
 b
@@ -21,14 +19,6 @@ n
 >src/main/java/com/snwolf/chat/message/LoginRequestMessage.java,b\7\b7c5edf0e79d5c7c6a047678175a79a149000746
 o
 ?src/main/java/com/snwolf/chat/message/LoginResponseMessage.java,3\1\31fd273cc44c98b7b537857a7f2b244c727bfd38
-[
-+src/main/java/com/snwolf/chat/lombok.config,9\9\99fe55af97d99ea195dd95d94e39b03cfba3bc57
-j
-:src/main/java/com/snwolf/chat/protocol/MyMessageCodec.java,9\4\941ddf171cd272531950d20c4a1072f9a6b6f41a
-e
-5src/test/java/com/snwolf/chat/protocol/TestCodec.java,4\8\484faadc7caeb0e5b41694560d23d68aa91a26a8
-g
-7src/main/java/com/snwolf/chat/utils/ByteBufferUtil.java,3\8\38c87cf6a763e47e3817c285cd3d8ab6cf849a41
 d
 4src/main/java/com/snwolf/chat/server/ChatServer.java,6\5\659b2e654d1568dd43650895ff6e5432446dd623
 p
@@ -53,3 +43,7 @@ d
 4src/main/java/com/snwolf/chat/client/ChatClient.java,f\9\f97b28bbeb55559db7aaf28d92e0bb165dfd09fb
 t
 Dsrc/main/java/com/snwolf/chat/server/service/UserServiceFactory.java,f\2\f217ba9dd3a934cee3b7d117d00cd9e46a6edb91
+p
+@src/main/java/com/snwolf/chat/server/session/SessionFactory.java,3\c\3cafb2b76cb22d4696d1421fc37734f48acc0401
+|
+Lsrc/main/java/com/snwolf/chat/server/handler/LoginRequestMessageHandler.java,3\5\35abe4193b67c16209425060e285058a8fb51306

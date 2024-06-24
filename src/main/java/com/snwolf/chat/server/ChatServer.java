@@ -1,16 +1,11 @@
 package com.snwolf.chat.server;
 
-import com.snwolf.chat.message.LoginRequestMessage;
-import com.snwolf.chat.message.LoginResponseMessage;
 import com.snwolf.chat.protocol.MessageCodecSharable;
 import com.snwolf.chat.protocol.ProtocolFrameDecoder;
-import com.snwolf.chat.server.service.UserService;
-import com.snwolf.chat.server.service.UserServiceFactory;
+import com.snwolf.chat.server.handler.LoginRequestMessageHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInitializer;
-import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
@@ -44,22 +39,7 @@ public class ChatServer {
                     ch.pipeline().addLast(new ProtocolFrameDecoder());
                     ch.pipeline().addLast(LOGGING_HANDLER);
                     ch.pipeline().addLast(MESSAGE_CODEC);
-                    ch.pipeline().addLast(new SimpleChannelInboundHandler<LoginRequestMessage>() {
-                        @Override
-                        protected void channelRead0(ChannelHandlerContext ctx, LoginRequestMessage msg) throws Exception {
-                            String username = msg.getUsername();
-                            String password = msg.getPassword();
-                            UserService userService = UserServiceFactory.getUserService();
-                            boolean result = userService.login(username, password);
-                            LoginResponseMessage response = null;
-                            if (result) {
-                                response = new LoginResponseMessage(true, "登录成功");
-                            } else {
-                                response = new LoginResponseMessage(false, "用户名或密码错误");
-                            }
-                            ctx.writeAndFlush(response);
-                        }
-                    });
+                    ch.pipeline().addLast(new LoginRequestMessageHandler());
                 }
             });
             ChannelFuture channelFuture = bootstrap.bind(8080).sync();
@@ -71,4 +51,5 @@ public class ChatServer {
             worker.shutdownGracefully();
         }
     }
+
 }
