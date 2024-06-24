@@ -1,17 +1,18 @@
 package com.snwolf.chat.client;
 
+import cn.hutool.core.util.ObjectUtil;
 import com.snwolf.chat.message.*;
 import com.snwolf.chat.protocol.MessageCodecSharable;
 import com.snwolf.chat.protocol.ProtocolFrameDecoder;
 import io.netty.bootstrap.Bootstrap;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.channel.ChannelInitializer;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
+import io.netty.handler.timeout.IdleState;
+import io.netty.handler.timeout.IdleStateEvent;
+import io.netty.handler.timeout.IdleStateHandler;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
@@ -38,6 +39,7 @@ public class ChatClient {
 
         CountDownLatch WAIT_FOR_LOGIN = new CountDownLatch(1);
         AtomicBoolean LOGIN = new AtomicBoolean(false);
+        AtomicBoolean EXIT = new AtomicBoolean(false);
 
         try {
             Bootstrap bootstrap = new Bootstrap();
@@ -49,7 +51,31 @@ public class ChatClient {
                     ch.pipeline().addLast(new ProtocolFrameDecoder());
                     ch.pipeline().addLast(LOGGING_HANDLER);
                     ch.pipeline().addLast(MESSAGE_CODEC);
+                    // 心跳检测
+                    ch.pipeline().addLast(new IdleStateHandler(0, 3, 0));
+                    ch.pipeline().addLast(new ChannelDuplexHandler() {
+                        /**
+                         * 用来响应特殊事件的触发
+                         * @param ctx
+                         * @param evt
+                         * @throws Exception
+                         */
+                        @Override
+                        public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
+                            IdleStateEvent event = (IdleStateEvent) evt;
+                            if (ObjectUtil.equal(event.state(), IdleState.WRITER_IDLE)) {
+                                log.info("写空闲... 发送心跳包...");
+                                ctx.writeAndFlush(new PingMessage());
+                            }
+                        }
+                    });
                     ch.pipeline().addLast("clientHandler", new ChannelInboundHandlerAdapter() {
+
+                        @Override
+                        public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+                            log.debug("连接已经关闭! 按任意键退出...");
+                            EXIT.set(true);
+                        }
 
                         @Override
                         public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
@@ -72,8 +98,14 @@ public class ChatClient {
                                 Scanner scanner = new Scanner(System.in);
                                 System.out.print("请输入用户名: ");
                                 String username = scanner.nextLine();
+                                if (EXIT.get()) {
+                                    return;
+                                }
                                 System.out.print("请输入密码: ");
                                 String password = scanner.nextLine();
+                                if (EXIT.get()) {
+                                    return;
+                                }
                                 LoginRequestMessage loginRequestMessage = LoginRequestMessage.builder()
                                         .username(username)
                                         .password(password)
@@ -100,6 +132,9 @@ public class ChatClient {
                                         System.out.println("quit");
                                         System.out.println("==================================");
                                         String command = scanner.nextLine();
+                                        if (EXIT.get()) {
+                                            return;
+                                        }
                                         String[] s = command.split(" ");
                                         switch (s[0]) {
                                             case "send":
