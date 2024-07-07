@@ -35,8 +35,8 @@ public class RpcClientManager {
     public static void main(String[] args) {
         HelloService service = getProxy(HelloService.class);
         System.out.println(service.sayHello("张三"));
-        System.out.println(service.sayHello("张三123"));
-        System.out.println(service.sayHello("lisi"));
+//        System.out.println(service.sayHello("张三123"));
+//        System.out.println(service.sayHello("lisi"));
     }
 
     /**

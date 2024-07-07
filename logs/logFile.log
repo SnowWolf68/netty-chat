@@ -15951,3 +15951,1465 @@ java.nio.channels.ClosedChannelException: null
 2024-07-08 00:17:04.373  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: RpcResponseMessage(super=Message(sequenceId=3, messageType=102), returnValue=lisi, exceptionValue=null)
 2024-07-08 00:17:04.374  INFO  [nioEventLoopGroup-2-1] c.s.c.c.h.RpcResponseMessageHandler - RpcResponseMessage(super=Message(sequenceId=3, messageType=102), returnValue=lisi, exceptionValue=null)
 2024-07-08 00:17:04.374  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0x24354dca, L:/127.0.0.1:60417 - R:localhost/127.0.0.1:8080] READ COMPLETE
+2024-07-08 00:23:20.486  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-07-08 00:23:20.492  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-07-08 00:23:20.515  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-07-08 00:23:20.515  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-07-08 00:23:20.524  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-07-08 00:23:20.525  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-07-08 00:23:20.546  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-07-08 00:23:20.548  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-07-08 00:23:20.549  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-07-08 00:23:20.551  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-07-08 00:23:20.552  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-07-08 00:23:20.553  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-07-08 00:23:20.554  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-07-08 00:23:20.555  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-07-08 00:23:20.556  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-07-08 00:23:20.556  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-07-08 00:23:20.556  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-07-08 00:23:20.557  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-07-08 00:23:20.557  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-07-08 00:23:20.559  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-07-08 00:23:20.560  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-07-08 00:23:20.562  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-07-08 00:23:20.562  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-07-08 00:23:20.570  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-07-08 00:23:21.294  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 31816 (auto-detected)
+2024-07-08 00:23:21.298  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-07-08 00:23:21.298  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-07-08 00:23:21.779  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-07-08 00:23:21.784  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-07-08 00:23:22.265  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-07-08 00:23:22.281  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-07-08 00:23:22.281  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-07-08 00:23:22.314  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-07-08 00:23:22.314  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-07-08 00:23:22.314  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-07-08 00:23:22.314  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-07-08 00:23:22.314  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-07-08 00:23:22.315  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-07-08 00:23:22.315  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-07-08 00:23:22.315  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-07-08 00:23:22.315  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-07-08 00:23:22.315  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-07-08 00:23:22.315  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-07-08 00:23:22.315  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-07-08 00:23:22.315  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-07-08 00:23:22.332  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-07-08 00:23:22.333  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-07-08 00:23:22.334  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-08 00:23:37.526  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-07-08 00:23:37.532  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-07-08 00:23:37.554  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-07-08 00:23:37.554  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-07-08 00:23:37.567  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-07-08 00:23:37.568  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-07-08 00:23:37.587  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-07-08 00:23:37.590  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-07-08 00:23:37.590  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-07-08 00:23:37.593  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-07-08 00:23:37.594  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-07-08 00:23:37.595  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-07-08 00:23:37.597  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-07-08 00:23:37.598  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-07-08 00:23:37.599  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-07-08 00:23:37.599  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-07-08 00:23:37.599  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-07-08 00:23:37.601  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-07-08 00:23:37.601  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-07-08 00:23:37.603  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-07-08 00:23:37.604  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-07-08 00:23:37.606  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-07-08 00:23:37.607  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-07-08 00:23:37.615  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-07-08 00:23:38.251  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 11616 (auto-detected)
+2024-07-08 00:23:38.254  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-07-08 00:23:38.256  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-07-08 00:23:38.755  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-07-08 00:23:38.760  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-07-08 00:23:39.250  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-07-08 00:23:39.265  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-07-08 00:23:39.265  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-07-08 00:23:39.297  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-07-08 00:23:39.297  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-07-08 00:23:39.298  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-07-08 00:23:39.299  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-07-08 00:23:39.299  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-07-08 00:23:39.312  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-07-08 00:23:39.312  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-07-08 00:23:39.312  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-08 00:23:39.354  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf63dd0b6] REGISTERED
+2024-07-08 00:23:39.355  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf63dd0b6] CONNECT: localhost/127.0.0.1:8080
+2024-07-08 00:23:39.359  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf63dd0b6, L:/127.0.0.1:60801 - R:localhost/127.0.0.1:8080] ACTIVE
+2024-07-08 00:23:39.362  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-07-08 00:23:39.362  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-07-08 00:23:39.362  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-07-08 00:23:39.363  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-07-08 00:23:39.386  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-07-08 00:23:39.386  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-07-08 00:23:39.388  DEBUG [nioEventLoopGroup-2-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@89560c4
+2024-07-08 00:23:39.391  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0xee23fc69, L:/127.0.0.1:8080 - R:/127.0.0.1:60801] REGISTERED
+2024-07-08 00:23:39.391  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0xee23fc69, L:/127.0.0.1:8080 - R:/127.0.0.1:60801] ACTIVE
+2024-07-08 00:23:39.391  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - encode...
+2024-07-08 00:23:39.447  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf63dd0b6, L:/127.0.0.1:60801 - R:localhost/127.0.0.1:8080] WRITE: 232B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d8 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |:"com.snwolf.cha|
+|00000030| 74 2e 73 65 72 76 65 72 2e 73 65 72 76 69 63 65 |t.server.service|
+|00000040| 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 22 2c 22 |.HelloService","|
+|00000050| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 73 61 79 |methodName":"say|
+|00000060| 48 65 6c 6c 6f 22 2c 22 72 65 74 75 72 6e 54 79 |Hello","returnTy|
+|00000070| 70 65 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 |pe":"java.lang.S|
+|00000080| 74 72 69 6e 67 22 2c 22 70 61 72 61 6d 65 74 65 |tring","paramete|
+|00000090| 72 54 79 70 65 73 22 3a 5b 22 6a 61 76 61 2e 6c |rTypes":["java.l|
+|000000a0| 61 6e 67 2e 53 74 72 69 6e 67 22 5d 2c 22 70 61 |ang.String"],"pa|
+|000000b0| 72 61 6d 65 74 65 72 56 61 6c 75 65 22 3a 5b 22 |rameterValue":["|
+|000000c0| e5 bc a0 e4 b8 89 22 5d 2c 22 73 65 71 75 65 6e |......"],"sequen|
+|000000d0| 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 67 65 |ceId":1,"message|
+|000000e0| 54 79 70 65 22 3a 30 7d                         |Type":0}        |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:23:39.449  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf63dd0b6, L:/127.0.0.1:60801 - R:localhost/127.0.0.1:8080] FLUSH
+2024-07-08 00:23:39.454  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-07-08 00:23:39.454  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-07-08 00:23:39.454  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-07-08 00:23:39.455  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-07-08 00:23:39.465  DEBUG [nioEventLoopGroup-3-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-07-08 00:23:39.465  DEBUG [nioEventLoopGroup-3-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-07-08 00:23:39.467  DEBUG [nioEventLoopGroup-3-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6413d645
+2024-07-08 00:23:39.479  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0xee23fc69, L:/127.0.0.1:8080 - R:/127.0.0.1:60801] READ: 232B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d8 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |:"com.snwolf.cha|
+|00000030| 74 2e 73 65 72 76 65 72 2e 73 65 72 76 69 63 65 |t.server.service|
+|00000040| 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 22 2c 22 |.HelloService","|
+|00000050| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 73 61 79 |methodName":"say|
+|00000060| 48 65 6c 6c 6f 22 2c 22 72 65 74 75 72 6e 54 79 |Hello","returnTy|
+|00000070| 70 65 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 |pe":"java.lang.S|
+|00000080| 74 72 69 6e 67 22 2c 22 70 61 72 61 6d 65 74 65 |tring","paramete|
+|00000090| 72 54 79 70 65 73 22 3a 5b 22 6a 61 76 61 2e 6c |rTypes":["java.l|
+|000000a0| 61 6e 67 2e 53 74 72 69 6e 67 22 5d 2c 22 70 61 |ang.String"],"pa|
+|000000b0| 72 61 6d 65 74 65 72 56 61 6c 75 65 22 3a 5b 22 |rameterValue":["|
+|000000c0| e5 bc a0 e4 b8 89 22 5d 2c 22 73 65 71 75 65 6e |......"],"sequen|
+|000000d0| 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 67 65 |ceId":1,"message|
+|000000e0| 54 79 70 65 22 3a 30 7d                         |Type":0}        |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:23:39.480  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode...
+2024-07-08 00:23:39.552  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode message: RpcRequestMessage(super=Message(sequenceId=1, messageType=101), interfaceName=com.snwolf.chat.server.service.HelloService, methodName=sayHello, returnType=class java.lang.String, parameterTypes=[class java.lang.String], parameterValue=[张三])
+2024-07-08 00:23:39.570  ERROR [nioEventLoopGroup-3-1] c.s.c.s.h.RpcRequestMessageHandler - exception: {}
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.snwolf.chat.server.handler.RpcRequestMessageHandler.channelRead0(RpcRequestMessageHandler.java:29)
+	at com.snwolf.chat.server.handler.RpcRequestMessageHandler.channelRead0(RpcRequestMessageHandler.java:20)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:241)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:328)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ArithmeticException: / by zero
+	at com.snwolf.chat.server.service.HelloServiceImpl.sayHello(HelloServiceImpl.java:12)
+	... 37 common frames omitted
+2024-07-08 00:23:39.571  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - encode...
+2024-07-08 00:23:39.585  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0xee23fc69, L:/127.0.0.1:8080 - R:/127.0.0.1:60801] WRITE: 11578B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 01 ff 00 00 2d 2a |......f.......-*|
+|00000010| 7b 22 65 78 63 65 70 74 69 6f 6e 56 61 6c 75 65 |{"exceptionValue|
+|00000020| 22 3a 7b 22 74 61 72 67 65 74 22 3a 7b 22 64 65 |":{"target":{"de|
+|00000030| 74 61 69 6c 4d 65 73 73 61 67 65 22 3a 22 2f 20 |tailMessage":"/ |
+|00000040| 62 79 20 7a 65 72 6f 22 2c 22 73 74 61 63 6b 54 |by zero","stackT|
+|00000050| 72 61 63 65 22 3a 5b 7b 22 64 65 63 6c 61 72 69 |race":[{"declari|
+|00000060| 6e 67 43 6c 61 73 73 22 3a 22 63 6f 6d 2e 73 6e |ngClass":"com.sn|
+|00000070| 77 6f 6c 66 2e 63 68 61 74 2e 73 65 72 76 65 72 |wolf.chat.server|
+|00000080| 2e 73 65 72 76 69 63 65 2e 48 65 6c 6c 6f 53 65 |.service.HelloSe|
+|00000090| 72 76 69 63 65 49 6d 70 6c 22 2c 22 6d 65 74 68 |rviceImpl","meth|
+|000000a0| 6f 64 4e 61 6d 65 22 3a 22 73 61 79 48 65 6c 6c |odName":"sayHell|
+|000000b0| 6f 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 48 |o","fileName":"H|
+|000000c0| 65 6c 6c 6f 53 65 72 76 69 63 65 49 6d 70 6c 2e |elloServiceImpl.|
+|000000d0| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|000000e0| 72 22 3a 31 32 7d 2c 7b 22 64 65 63 6c 61 72 69 |r":12},{"declari|
+|000000f0| 6e 67 43 6c 61 73 73 22 3a 22 73 75 6e 2e 72 65 |ngClass":"sun.re|
+|00000100| 66 6c 65 63 74 2e 4e 61 74 69 76 65 4d 65 74 68 |flect.NativeMeth|
+|00000110| 6f 64 41 63 63 65 73 73 6f 72 49 6d 70 6c 22 2c |odAccessorImpl",|
+|00000120| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e |"methodName":"in|
+|00000130| 76 6f 6b 65 30 22 2c 22 66 69 6c 65 4e 61 6d 65 |voke0","fileName|
+|00000140| 22 3a 22 4e 61 74 69 76 65 4d 65 74 68 6f 64 41 |":"NativeMethodA|
+|00000150| 63 63 65 73 73 6f 72 49 6d 70 6c 2e 6a 61 76 61 |ccessorImpl.java|
+|00000160| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 2d |","lineNumber":-|
+|00000170| 32 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |2},{"declaringCl|
+|00000180| 61 73 73 22 3a 22 73 75 6e 2e 72 65 66 6c 65 63 |ass":"sun.reflec|
+|00000190| 74 2e 4e 61 74 69 76 65 4d 65 74 68 6f 64 41 63 |t.NativeMethodAc|
+|000001a0| 63 65 73 73 6f 72 49 6d 70 6c 22 2c 22 6d 65 74 |cessorImpl","met|
+|000001b0| 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 |hodName":"invoke|
+|000001c0| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 4e 61 |","fileName":"Na|
+|000001d0| 74 69 76 65 4d 65 74 68 6f 64 41 63 63 65 73 73 |tiveMethodAccess|
+|000001e0| 6f 72 49 6d 70 6c 2e 6a 61 76 61 22 2c 22 6c 69 |orImpl.java","li|
+|000001f0| 6e 65 4e 75 6d 62 65 72 22 3a 36 32 7d 2c 7b 22 |neNumber":62},{"|
+|00000200| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|00000210| 22 73 75 6e 2e 72 65 66 6c 65 63 74 2e 44 65 6c |"sun.reflect.Del|
+|00000220| 65 67 61 74 69 6e 67 4d 65 74 68 6f 64 41 63 63 |egatingMethodAcc|
+|00000230| 65 73 73 6f 72 49 6d 70 6c 22 2c 22 6d 65 74 68 |essorImpl","meth|
+|00000240| 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 22 |odName":"invoke"|
+|00000250| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 44 65 6c |,"fileName":"Del|
+|00000260| 65 67 61 74 69 6e 67 4d 65 74 68 6f 64 41 63 63 |egatingMethodAcc|
+|00000270| 65 73 73 6f 72 49 6d 70 6c 2e 6a 61 76 61 22 2c |essorImpl.java",|
+|00000280| 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 34 33 7d |"lineNumber":43}|
+|00000290| 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 |,{"declaringClas|
+|000002a0| 73 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 72 65 |s":"java.lang.re|
+|000002b0| 66 6c 65 63 74 2e 4d 65 74 68 6f 64 22 2c 22 6d |flect.Method","m|
+|000002c0| 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f |ethodName":"invo|
+|000002d0| 6b 65 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 |ke","fileName":"|
+|000002e0| 4d 65 74 68 6f 64 2e 6a 61 76 61 22 2c 22 6c 69 |Method.java","li|
+|000002f0| 6e 65 4e 75 6d 62 65 72 22 3a 34 39 38 7d 2c 7b |neNumber":498},{|
+|00000300| 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 |"declaringClass"|
+|00000310| 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |:"com.snwolf.cha|
+|00000320| 74 2e 73 65 72 76 65 72 2e 68 61 6e 64 6c 65 72 |t.server.handler|
+|00000330| 2e 52 70 63 52 65 71 75 65 73 74 4d 65 73 73 61 |.RpcRequestMessa|
+|00000340| 67 65 48 61 6e 64 6c 65 72 22 2c 22 6d 65 74 68 |geHandler","meth|
+|00000350| 6f 64 4e 61 6d 65 22 3a 22 63 68 61 6e 6e 65 6c |odName":"channel|
+|00000360| 52 65 61 64 30 22 2c 22 66 69 6c 65 4e 61 6d 65 |Read0","fileName|
+|00000370| 22 3a 22 52 70 63 52 65 71 75 65 73 74 4d 65 73 |":"RpcRequestMes|
+|00000380| 73 61 67 65 48 61 6e 64 6c 65 72 2e 6a 61 76 61 |sageHandler.java|
+|00000390| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 32 |","lineNumber":2|
+|000003a0| 39 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |9},{"declaringCl|
+|000003b0| 61 73 73 22 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 |ass":"com.snwolf|
+|000003c0| 2e 63 68 61 74 2e 73 65 72 76 65 72 2e 68 61 6e |.chat.server.han|
+|000003d0| 64 6c 65 72 2e 52 70 63 52 65 71 75 65 73 74 4d |dler.RpcRequestM|
+|000003e0| 65 73 73 61 67 65 48 61 6e 64 6c 65 72 22 2c 22 |essageHandler","|
+|000003f0| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 63 68 61 |methodName":"cha|
+|00000400| 6e 6e 65 6c 52 65 61 64 30 22 2c 22 66 69 6c 65 |nnelRead0","file|
+|00000410| 4e 61 6d 65 22 3a 22 52 70 63 52 65 71 75 65 73 |Name":"RpcReques|
+|00000420| 74 4d 65 73 73 61 67 65 48 61 6e 64 6c 65 72 2e |tMessageHandler.|
+|00000430| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|00000440| 72 22 3a 32 30 7d 2c 7b 22 64 65 63 6c 61 72 69 |r":20},{"declari|
+|00000450| 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 |ngClass":"io.net|
+|00000460| 74 79 2e 63 68 61 6e 6e 65 6c 2e 53 69 6d 70 6c |ty.channel.Simpl|
+|00000470| 65 43 68 61 6e 6e 65 6c 49 6e 62 6f 75 6e 64 48 |eChannelInboundH|
+|00000480| 61 6e 64 6c 65 72 22 2c 22 6d 65 74 68 6f 64 4e |andler","methodN|
+|00000490| 61 6d 65 22 3a 22 63 68 61 6e 6e 65 6c 52 65 61 |ame":"channelRea|
+|000004a0| 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 53 |d","fileName":"S|
+|000004b0| 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e 62 6f |impleChannelInbo|
+|000004c0| 75 6e 64 48 61 6e 64 6c 65 72 2e 6a 61 76 61 22 |undHandler.java"|
+|000004d0| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 31 30 |,"lineNumber":10|
+|000004e0| 35 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |5},{"declaringCl|
+|000004f0| 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 |ass":"io.netty.c|
+|00000500| 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 43 |hannel.AbstractC|
+|00000510| 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e |hannelHandlerCon|
+|00000520| 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d |text","methodNam|
+|00000530| 65 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 |e":"invokeChanne|
+|00000540| 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 |lRead","fileName|
+|00000550| 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e 6e |":"AbstractChann|
+|00000560| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00000570| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|00000580| 65 72 22 3a 33 37 34 7d 2c 7b 22 64 65 63 6c 61 |er":374},{"decla|
+|00000590| 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e |ringClass":"io.n|
+|000005a0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 |etty.channel.Abs|
+|000005b0| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|000005c0| 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 |lerContext","met|
+|000005d0| 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 |hodName":"invoke|
+|000005e0| 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 |ChannelRead","fi|
+|000005f0| 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 |leName":"Abstrac|
+|00000600| 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 |tChannelHandlerC|
+|00000610| 6f 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 |ontext.java","li|
+|00000620| 6e 65 4e 75 6d 62 65 72 22 3a 33 36 30 7d 2c 7b |neNumber":360},{|
+|00000630| 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 |"declaringClass"|
+|00000640| 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e |:"io.netty.chann|
+|00000650| 65 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e |el.AbstractChann|
+|00000660| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00000670| 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 |","methodName":"|
+|00000680| 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 |fireChannelRead"|
+|00000690| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 |,"fileName":"Abs|
+|000006a0| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|000006b0| 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 22 |lerContext.java"|
+|000006c0| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 35 |,"lineNumber":35|
+|000006d0| 32 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |2},{"declaringCl|
+|000006e0| 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 68 |ass":"io.netty.h|
+|000006f0| 61 6e 64 6c 65 72 2e 63 6f 64 65 63 2e 4d 65 73 |andler.codec.Mes|
+|00000700| 73 61 67 65 54 6f 4d 65 73 73 61 67 65 44 65 63 |sageToMessageDec|
+|00000710| 6f 64 65 72 22 2c 22 6d 65 74 68 6f 64 4e 61 6d |oder","methodNam|
+|00000720| 65 22 3a 22 63 68 61 6e 6e 65 6c 52 65 61 64 22 |e":"channelRead"|
+|00000730| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 4d 65 73 |,"fileName":"Mes|
+|00000740| 73 61 67 65 54 6f 4d 65 73 73 61 67 65 44 65 63 |sageToMessageDec|
+|00000750| 6f 64 65 72 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 |oder.java","line|
+|00000760| 4e 75 6d 62 65 72 22 3a 31 30 32 7d 2c 7b 22 64 |Number":102},{"d|
+|00000770| 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 |eclaringClass":"|
+|00000780| 69 6f 2e 6e 65 74 74 79 2e 68 61 6e 64 6c 65 72 |io.netty.handler|
+|00000790| 2e 63 6f 64 65 63 2e 4d 65 73 73 61 67 65 54 6f |.codec.MessageTo|
+|000007a0| 4d 65 73 73 61 67 65 43 6f 64 65 63 22 2c 22 6d |MessageCodec","m|
+|000007b0| 65 74 68 6f 64 4e 61 6d 65 22 3a 22 63 68 61 6e |ethodName":"chan|
+|000007c0| 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 |nelRead","fileNa|
+|000007d0| 6d 65 22 3a 22 4d 65 73 73 61 67 65 54 6f 4d 65 |me":"MessageToMe|
+|000007e0| 73 73 61 67 65 43 6f 64 65 63 2e 6a 61 76 61 22 |ssageCodec.java"|
+|000007f0| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 31 31 |,"lineNumber":11|
+|00000800| 31 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |1},{"declaringCl|
+|00000810| 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 |ass":"io.netty.c|
+|00000820| 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 43 |hannel.AbstractC|
+|00000830| 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e |hannelHandlerCon|
+|00000840| 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d |text","methodNam|
+|00000850| 65 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 |e":"invokeChanne|
+|00000860| 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 |lRead","fileName|
+|00000870| 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e 6e |":"AbstractChann|
+|00000880| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00000890| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|000008a0| 65 72 22 3a 33 37 34 7d 2c 7b 22 64 65 63 6c 61 |er":374},{"decla|
+|000008b0| 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e |ringClass":"io.n|
+|000008c0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 |etty.channel.Abs|
+|000008d0| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|000008e0| 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 |lerContext","met|
+|000008f0| 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 |hodName":"invoke|
+|00000900| 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 |ChannelRead","fi|
+|00000910| 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 |leName":"Abstrac|
+|00000920| 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 |tChannelHandlerC|
+|00000930| 6f 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 |ontext.java","li|
+|00000940| 6e 65 4e 75 6d 62 65 72 22 3a 33 36 30 7d 2c 7b |neNumber":360},{|
+|00000950| 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 |"declaringClass"|
+|00000960| 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e |:"io.netty.chann|
+|00000970| 65 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e |el.AbstractChann|
+|00000980| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00000990| 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 |","methodName":"|
+|000009a0| 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 |fireChannelRead"|
+|000009b0| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 |,"fileName":"Abs|
+|000009c0| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|000009d0| 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 22 |lerContext.java"|
+|000009e0| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 35 |,"lineNumber":35|
+|000009f0| 32 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |2},{"declaringCl|
+|00000a00| 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 68 |ass":"io.netty.h|
+|00000a10| 61 6e 64 6c 65 72 2e 6c 6f 67 67 69 6e 67 2e 4c |andler.logging.L|
+|00000a20| 6f 67 67 69 6e 67 48 61 6e 64 6c 65 72 22 2c 22 |oggingHandler","|
+|00000a30| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 63 68 61 |methodName":"cha|
+|00000a40| 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e |nnelRead","fileN|
+|00000a50| 61 6d 65 22 3a 22 4c 6f 67 67 69 6e 67 48 61 6e |ame":"LoggingHan|
+|00000a60| 64 6c 65 72 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 |dler.java","line|
+|00000a70| 4e 75 6d 62 65 72 22 3a 32 34 31 7d 2c 7b 22 64 |Number":241},{"d|
+|00000a80| 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 |eclaringClass":"|
+|00000a90| 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c |io.netty.channel|
+|00000aa0| 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 6c |.AbstractChannel|
+|00000ab0| 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 22 2c |HandlerContext",|
+|00000ac0| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e |"methodName":"in|
+|00000ad0| 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 |vokeChannelRead"|
+|00000ae0| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 |,"fileName":"Abs|
+|00000af0| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|00000b00| 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 22 |lerContext.java"|
+|00000b10| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 37 |,"lineNumber":37|
+|00000b20| 34 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |4},{"declaringCl|
+|00000b30| 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 |ass":"io.netty.c|
+|00000b40| 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 43 |hannel.AbstractC|
+|00000b50| 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e |hannelHandlerCon|
+|00000b60| 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d |text","methodNam|
+|00000b70| 65 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 |e":"invokeChanne|
+|00000b80| 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 |lRead","fileName|
+|00000b90| 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e 6e |":"AbstractChann|
+|00000ba0| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00000bb0| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|00000bc0| 65 72 22 3a 33 36 30 7d 2c 7b 22 64 65 63 6c 61 |er":360},{"decla|
+|00000bd0| 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e |ringClass":"io.n|
+|00000be0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 |etty.channel.Abs|
+|00000bf0| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|00000c00| 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 |lerContext","met|
+|00000c10| 68 6f 64 4e 61 6d 65 22 3a 22 66 69 72 65 43 68 |hodName":"fireCh|
+|00000c20| 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 |annelRead","file|
+|00000c30| 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 74 43 |Name":"AbstractC|
+|00000c40| 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e |hannelHandlerCon|
+|00000c50| 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 |text.java","line|
+|00000c60| 4e 75 6d 62 65 72 22 3a 33 35 32 7d 2c 7b 22 64 |Number":352},{"d|
+|00000c70| 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 |eclaringClass":"|
+|00000c80| 69 6f 2e 6e 65 74 74 79 2e 68 61 6e 64 6c 65 72 |io.netty.handler|
+|00000c90| 2e 63 6f 64 65 63 2e 42 79 74 65 54 6f 4d 65 73 |.codec.ByteToMes|
+|00000ca0| 73 61 67 65 44 65 63 6f 64 65 72 22 2c 22 6d 65 |sageDecoder","me|
+|00000cb0| 74 68 6f 64 4e 61 6d 65 22 3a 22 66 69 72 65 43 |thodName":"fireC|
+|00000cc0| 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c |hannelRead","fil|
+|00000cd0| 65 4e 61 6d 65 22 3a 22 42 79 74 65 54 6f 4d 65 |eName":"ByteToMe|
+|00000ce0| 73 73 61 67 65 44 65 63 6f 64 65 72 2e 6a 61 76 |ssageDecoder.jav|
+|00000cf0| 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a |a","lineNumber":|
+|00000d00| 33 32 38 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 |328},{"declaring|
+|00000d10| 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 |Class":"io.netty|
+|00000d20| 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 65 63 2e 42 |.handler.codec.B|
+|00000d30| 79 74 65 54 6f 4d 65 73 73 61 67 65 44 65 63 6f |yteToMessageDeco|
+|00000d40| 64 65 72 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 |der","methodName|
+|00000d50| 22 3a 22 63 68 61 6e 6e 65 6c 52 65 61 64 22 2c |":"channelRead",|
+|00000d60| 22 66 69 6c 65 4e 61 6d 65 22 3a 22 42 79 74 65 |"fileName":"Byte|
+|00000d70| 54 6f 4d 65 73 73 61 67 65 44 65 63 6f 64 65 72 |ToMessageDecoder|
+|00000d80| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|00000d90| 65 72 22 3a 33 30 32 7d 2c 7b 22 64 65 63 6c 61 |er":302},{"decla|
+|00000da0| 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e |ringClass":"io.n|
+|00000db0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 |etty.channel.Abs|
+|00000dc0| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|00000dd0| 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 |lerContext","met|
+|00000de0| 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 |hodName":"invoke|
+|00000df0| 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 |ChannelRead","fi|
+|00000e00| 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 |leName":"Abstrac|
+|00000e10| 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 |tChannelHandlerC|
+|00000e20| 6f 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 |ontext.java","li|
+|00000e30| 6e 65 4e 75 6d 62 65 72 22 3a 33 37 34 7d 2c 7b |neNumber":374},{|
+|00000e40| 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 |"declaringClass"|
+|00000e50| 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e |:"io.netty.chann|
+|00000e60| 65 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e |el.AbstractChann|
+|00000e70| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00000e80| 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 |","methodName":"|
+|00000e90| 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 |invokeChannelRea|
+|00000ea0| 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 |d","fileName":"A|
+|00000eb0| 62 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 |bstractChannelHa|
+|00000ec0| 6e 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 |ndlerContext.jav|
+|00000ed0| 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a |a","lineNumber":|
+|00000ee0| 33 36 30 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 |360},{"declaring|
+|00000ef0| 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 |Class":"io.netty|
+|00000f00| 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 |.channel.Abstrac|
+|00000f10| 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 |tChannelHandlerC|
+|00000f20| 6f 6e 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e |ontext","methodN|
+|00000f30| 61 6d 65 22 3a 22 66 69 72 65 43 68 61 6e 6e 65 |ame":"fireChanne|
+|00000f40| 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 |lRead","fileName|
+|00000f50| 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e 6e |":"AbstractChann|
+|00000f60| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00000f70| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|00000f80| 65 72 22 3a 33 35 32 7d 2c 7b 22 64 65 63 6c 61 |er":352},{"decla|
+|00000f90| 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e |ringClass":"io.n|
+|00000fa0| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 44 65 66 |etty.channel.Def|
+|00000fb0| 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 65 6c |aultChannelPipel|
+|00000fc0| 69 6e 65 24 48 65 61 64 43 6f 6e 74 65 78 74 22 |ine$HeadContext"|
+|00000fd0| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 63 |,"methodName":"c|
+|00000fe0| 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c |hannelRead","fil|
+|00000ff0| 65 4e 61 6d 65 22 3a 22 44 65 66 61 75 6c 74 43 |eName":"DefaultC|
+|00001000| 68 61 6e 6e 65 6c 50 69 70 65 6c 69 6e 65 2e 6a |hannelPipeline.j|
+|00001010| 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 |ava","lineNumber|
+|00001020| 22 3a 31 34 32 31 7d 2c 7b 22 64 65 63 6c 61 72 |":1421},{"declar|
+|00001030| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00001040| 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 |tty.channel.Abst|
+|00001050| 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c |ractChannelHandl|
+|00001060| 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 68 |erContext","meth|
+|00001070| 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 43 |odName":"invokeC|
+|00001080| 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c |hannelRead","fil|
+|00001090| 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 74 |eName":"Abstract|
+|000010a0| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|000010b0| 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 6e |ntext.java","lin|
+|000010c0| 65 4e 75 6d 62 65 72 22 3a 33 37 34 7d 2c 7b 22 |eNumber":374},{"|
+|000010d0| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|000010e0| 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 |"io.netty.channe|
+|000010f0| 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |l.AbstractChanne|
+|00001100| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 22 |lHandlerContext"|
+|00001110| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 |,"methodName":"i|
+|00001120| 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 64 |nvokeChannelRead|
+|00001130| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 |","fileName":"Ab|
+|00001140| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00001150| 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 |dlerContext.java|
+|00001160| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 |","lineNumber":3|
+|00001170| 36 30 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |60},{"declaringC|
+|00001180| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00001190| 63 68 61 6e 6e 65 6c 2e 44 65 66 61 75 6c 74 43 |channel.DefaultC|
+|000011a0| 68 61 6e 6e 65 6c 50 69 70 65 6c 69 6e 65 22 2c |hannelPipeline",|
+|000011b0| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 66 69 |"methodName":"fi|
+|000011c0| 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 |reChannelRead","|
+|000011d0| 66 69 6c 65 4e 61 6d 65 22 3a 22 44 65 66 61 75 |fileName":"Defau|
+|000011e0| 6c 74 43 68 61 6e 6e 65 6c 50 69 70 65 6c 69 6e |ltChannelPipelin|
+|000011f0| 65 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |e.java","lineNum|
+|00001200| 62 65 72 22 3a 39 33 30 7d 2c 7b 22 64 65 63 6c |ber":930},{"decl|
+|00001210| 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e |aringClass":"io.|
+|00001220| 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 6e 69 |netty.channel.ni|
+|00001230| 6f 2e 41 62 73 74 72 61 63 74 4e 69 6f 42 79 74 |o.AbstractNioByt|
+|00001240| 65 43 68 61 6e 6e 65 6c 24 4e 69 6f 42 79 74 65 |eChannel$NioByte|
+|00001250| 55 6e 73 61 66 65 22 2c 22 6d 65 74 68 6f 64 4e |Unsafe","methodN|
+|00001260| 61 6d 65 22 3a 22 72 65 61 64 22 2c 22 66 69 6c |ame":"read","fil|
+|00001270| 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 74 |eName":"Abstract|
+|00001280| 4e 69 6f 42 79 74 65 43 68 61 6e 6e 65 6c 2e 6a |NioByteChannel.j|
+|00001290| 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 |ava","lineNumber|
+|000012a0| 22 3a 31 36 33 7d 2c 7b 22 64 65 63 6c 61 72 69 |":163},{"declari|
+|000012b0| 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 |ngClass":"io.net|
+|000012c0| 74 79 2e 63 68 61 6e 6e 65 6c 2e 6e 69 6f 2e 4e |ty.channel.nio.N|
+|000012d0| 69 6f 45 76 65 6e 74 4c 6f 6f 70 22 2c 22 6d 65 |ioEventLoop","me|
+|000012e0| 74 68 6f 64 4e 61 6d 65 22 3a 22 70 72 6f 63 65 |thodName":"proce|
+|000012f0| 73 73 53 65 6c 65 63 74 65 64 4b 65 79 22 2c 22 |ssSelectedKey","|
+|00001300| 66 69 6c 65 4e 61 6d 65 22 3a 22 4e 69 6f 45 76 |fileName":"NioEv|
+|00001310| 65 6e 74 4c 6f 6f 70 2e 6a 61 76 61 22 2c 22 6c |entLoop.java","l|
+|00001320| 69 6e 65 4e 75 6d 62 65 72 22 3a 36 39 37 7d 2c |ineNumber":697},|
+|00001330| 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 |{"declaringClass|
+|00001340| 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e |":"io.netty.chan|
+|00001350| 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f 45 76 65 6e 74 |nel.nio.NioEvent|
+|00001360| 4c 6f 6f 70 22 2c 22 6d 65 74 68 6f 64 4e 61 6d |Loop","methodNam|
+|00001370| 65 22 3a 22 70 72 6f 63 65 73 73 53 65 6c 65 63 |e":"processSelec|
+|00001380| 74 65 64 4b 65 79 73 4f 70 74 69 6d 69 7a 65 64 |tedKeysOptimized|
+|00001390| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 4e 69 |","fileName":"Ni|
+|000013a0| 6f 45 76 65 6e 74 4c 6f 6f 70 2e 6a 61 76 61 22 |oEventLoop.java"|
+|000013b0| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 36 33 |,"lineNumber":63|
+|000013c0| 32 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c |2},{"declaringCl|
+|000013d0| 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 |ass":"io.netty.c|
+|000013e0| 68 61 6e 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f 45 76 |hannel.nio.NioEv|
+|000013f0| 65 6e 74 4c 6f 6f 70 22 2c 22 6d 65 74 68 6f 64 |entLoop","method|
+|00001400| 4e 61 6d 65 22 3a 22 70 72 6f 63 65 73 73 53 65 |Name":"processSe|
+|00001410| 6c 65 63 74 65 64 4b 65 79 73 22 2c 22 66 69 6c |lectedKeys","fil|
+|00001420| 65 4e 61 6d 65 22 3a 22 4e 69 6f 45 76 65 6e 74 |eName":"NioEvent|
+|00001430| 4c 6f 6f 70 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 |Loop.java","line|
+|00001440| 4e 75 6d 62 65 72 22 3a 35 34 39 7d 2c 7b 22 64 |Number":549},{"d|
+|00001450| 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 |eclaringClass":"|
+|00001460| 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c |io.netty.channel|
+|00001470| 2e 6e 69 6f 2e 4e 69 6f 45 76 65 6e 74 4c 6f 6f |.nio.NioEventLoo|
+|00001480| 70 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a |p","methodName":|
+|00001490| 22 72 75 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 22 |"run","fileName"|
+|000014a0| 3a 22 4e 69 6f 45 76 65 6e 74 4c 6f 6f 70 2e 6a |:"NioEventLoop.j|
+|000014b0| 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 |ava","lineNumber|
+|000014c0| 22 3a 35 31 31 7d 2c 7b 22 64 65 63 6c 61 72 69 |":511},{"declari|
+|000014d0| 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 |ngClass":"io.net|
+|000014e0| 74 79 2e 75 74 69 6c 2e 63 6f 6e 63 75 72 72 65 |ty.util.concurre|
+|000014f0| 6e 74 2e 53 69 6e 67 6c 65 54 68 72 65 61 64 45 |nt.SingleThreadE|
+|00001500| 76 65 6e 74 45 78 65 63 75 74 6f 72 24 35 22 2c |ventExecutor$5",|
+|00001510| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 72 75 |"methodName":"ru|
+|00001520| 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 53 |n","fileName":"S|
+|00001530| 69 6e 67 6c 65 54 68 72 65 61 64 45 76 65 6e 74 |ingleThreadEvent|
+|00001540| 45 78 65 63 75 74 6f 72 2e 6a 61 76 61 22 2c 22 |Executor.java","|
+|00001550| 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 39 31 38 7d |lineNumber":918}|
+|00001560| 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 |,{"declaringClas|
+|00001570| 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 75 74 69 |s":"io.netty.uti|
+|00001580| 6c 2e 69 6e 74 65 72 6e 61 6c 2e 54 68 72 65 61 |l.internal.Threa|
+|00001590| 64 45 78 65 63 75 74 6f 72 4d 61 70 24 32 22 2c |dExecutorMap$2",|
+|000015a0| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 72 75 |"methodName":"ru|
+|000015b0| 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 54 |n","fileName":"T|
+|000015c0| 68 72 65 61 64 45 78 65 63 75 74 6f 72 4d 61 70 |hreadExecutorMap|
+|000015d0| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|000015e0| 65 72 22 3a 37 34 7d 2c 7b 22 64 65 63 6c 61 72 |er":74},{"declar|
+|000015f0| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00001600| 74 74 79 2e 75 74 69 6c 2e 63 6f 6e 63 75 72 72 |tty.util.concurr|
+|00001610| 65 6e 74 2e 46 61 73 74 54 68 72 65 61 64 4c 6f |ent.FastThreadLo|
+|00001620| 63 61 6c 52 75 6e 6e 61 62 6c 65 22 2c 22 6d 65 |calRunnable","me|
+|00001630| 74 68 6f 64 4e 61 6d 65 22 3a 22 72 75 6e 22 2c |thodName":"run",|
+|00001640| 22 66 69 6c 65 4e 61 6d 65 22 3a 22 46 61 73 74 |"fileName":"Fast|
+|00001650| 54 68 72 65 61 64 4c 6f 63 61 6c 52 75 6e 6e 61 |ThreadLocalRunna|
+|00001660| 62 6c 65 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e |ble.java","lineN|
+|00001670| 75 6d 62 65 72 22 3a 33 30 7d 2c 7b 22 64 65 63 |umber":30},{"dec|
+|00001680| 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 6a 61 |laringClass":"ja|
+|00001690| 76 61 2e 6c 61 6e 67 2e 54 68 72 65 61 64 22 2c |va.lang.Thread",|
+|000016a0| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 72 75 |"methodName":"ru|
+|000016b0| 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 54 |n","fileName":"T|
+|000016c0| 68 72 65 61 64 2e 6a 61 76 61 22 2c 22 6c 69 6e |hread.java","lin|
+|000016d0| 65 4e 75 6d 62 65 72 22 3a 37 35 30 7d 5d 2c 22 |eNumber":750}],"|
+|000016e0| 73 75 70 70 72 65 73 73 65 64 45 78 63 65 70 74 |suppressedExcept|
+|000016f0| 69 6f 6e 73 22 3a 5b 5d 7d 2c 22 73 74 61 63 6b |ions":[]},"stack|
+|00001700| 54 72 61 63 65 22 3a 5b 7b 22 64 65 63 6c 61 72 |Trace":[{"declar|
+|00001710| 69 6e 67 43 6c 61 73 73 22 3a 22 73 75 6e 2e 72 |ingClass":"sun.r|
+|00001720| 65 66 6c 65 63 74 2e 4e 61 74 69 76 65 4d 65 74 |eflect.NativeMet|
+|00001730| 68 6f 64 41 63 63 65 73 73 6f 72 49 6d 70 6c 22 |hodAccessorImpl"|
+|00001740| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 |,"methodName":"i|
+|00001750| 6e 76 6f 6b 65 30 22 2c 22 66 69 6c 65 4e 61 6d |nvoke0","fileNam|
+|00001760| 65 22 3a 22 4e 61 74 69 76 65 4d 65 74 68 6f 64 |e":"NativeMethod|
+|00001770| 41 63 63 65 73 73 6f 72 49 6d 70 6c 2e 6a 61 76 |AccessorImpl.jav|
+|00001780| 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a |a","lineNumber":|
+|00001790| 2d 32 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |-2},{"declaringC|
+|000017a0| 6c 61 73 73 22 3a 22 73 75 6e 2e 72 65 66 6c 65 |lass":"sun.refle|
+|000017b0| 63 74 2e 4e 61 74 69 76 65 4d 65 74 68 6f 64 41 |ct.NativeMethodA|
+|000017c0| 63 63 65 73 73 6f 72 49 6d 70 6c 22 2c 22 6d 65 |ccessorImpl","me|
+|000017d0| 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b |thodName":"invok|
+|000017e0| 65 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 4e |e","fileName":"N|
+|000017f0| 61 74 69 76 65 4d 65 74 68 6f 64 41 63 63 65 73 |ativeMethodAcces|
+|00001800| 73 6f 72 49 6d 70 6c 2e 6a 61 76 61 22 2c 22 6c |sorImpl.java","l|
+|00001810| 69 6e 65 4e 75 6d 62 65 72 22 3a 36 32 7d 2c 7b |ineNumber":62},{|
+|00001820| 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 |"declaringClass"|
+|00001830| 3a 22 73 75 6e 2e 72 65 66 6c 65 63 74 2e 44 65 |:"sun.reflect.De|
+|00001840| 6c 65 67 61 74 69 6e 67 4d 65 74 68 6f 64 41 63 |legatingMethodAc|
+|00001850| 63 65 73 73 6f 72 49 6d 70 6c 22 2c 22 6d 65 74 |cessorImpl","met|
+|00001860| 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 |hodName":"invoke|
+|00001870| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 44 65 |","fileName":"De|
+|00001880| 6c 65 67 61 74 69 6e 67 4d 65 74 68 6f 64 41 63 |legatingMethodAc|
+|00001890| 63 65 73 73 6f 72 49 6d 70 6c 2e 6a 61 76 61 22 |cessorImpl.java"|
+|000018a0| 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 34 33 |,"lineNumber":43|
+|000018b0| 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 |},{"declaringCla|
+|000018c0| 73 73 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 72 |ss":"java.lang.r|
+|000018d0| 65 66 6c 65 63 74 2e 4d 65 74 68 6f 64 22 2c 22 |eflect.Method","|
+|000018e0| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 |methodName":"inv|
+|000018f0| 6f 6b 65 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a |oke","fileName":|
+|00001900| 22 4d 65 74 68 6f 64 2e 6a 61 76 61 22 2c 22 6c |"Method.java","l|
+|00001910| 69 6e 65 4e 75 6d 62 65 72 22 3a 34 39 38 7d 2c |ineNumber":498},|
+|00001920| 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 |{"declaringClass|
+|00001930| 22 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 |":"com.snwolf.ch|
+|00001940| 61 74 2e 73 65 72 76 65 72 2e 68 61 6e 64 6c 65 |at.server.handle|
+|00001950| 72 2e 52 70 63 52 65 71 75 65 73 74 4d 65 73 73 |r.RpcRequestMess|
+|00001960| 61 67 65 48 61 6e 64 6c 65 72 22 2c 22 6d 65 74 |ageHandler","met|
+|00001970| 68 6f 64 4e 61 6d 65 22 3a 22 63 68 61 6e 6e 65 |hodName":"channe|
+|00001980| 6c 52 65 61 64 30 22 2c 22 66 69 6c 65 4e 61 6d |lRead0","fileNam|
+|00001990| 65 22 3a 22 52 70 63 52 65 71 75 65 73 74 4d 65 |e":"RpcRequestMe|
+|000019a0| 73 73 61 67 65 48 61 6e 64 6c 65 72 2e 6a 61 76 |ssageHandler.jav|
+|000019b0| 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a |a","lineNumber":|
+|000019c0| 32 39 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |29},{"declaringC|
+|000019d0| 6c 61 73 73 22 3a 22 63 6f 6d 2e 73 6e 77 6f 6c |lass":"com.snwol|
+|000019e0| 66 2e 63 68 61 74 2e 73 65 72 76 65 72 2e 68 61 |f.chat.server.ha|
+|000019f0| 6e 64 6c 65 72 2e 52 70 63 52 65 71 75 65 73 74 |ndler.RpcRequest|
+|00001a00| 4d 65 73 73 61 67 65 48 61 6e 64 6c 65 72 22 2c |MessageHandler",|
+|00001a10| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 63 68 |"methodName":"ch|
+|00001a20| 61 6e 6e 65 6c 52 65 61 64 30 22 2c 22 66 69 6c |annelRead0","fil|
+|00001a30| 65 4e 61 6d 65 22 3a 22 52 70 63 52 65 71 75 65 |eName":"RpcReque|
+|00001a40| 73 74 4d 65 73 73 61 67 65 48 61 6e 64 6c 65 72 |stMessageHandler|
+|00001a50| 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 |.java","lineNumb|
+|00001a60| 65 72 22 3a 32 30 7d 2c 7b 22 64 65 63 6c 61 72 |er":20},{"declar|
+|00001a70| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00001a80| 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 53 69 6d 70 |tty.channel.Simp|
+|00001a90| 6c 65 43 68 61 6e 6e 65 6c 49 6e 62 6f 75 6e 64 |leChannelInbound|
+|00001aa0| 48 61 6e 64 6c 65 72 22 2c 22 6d 65 74 68 6f 64 |Handler","method|
+|00001ab0| 4e 61 6d 65 22 3a 22 63 68 61 6e 6e 65 6c 52 65 |Name":"channelRe|
+|00001ac0| 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 |ad","fileName":"|
+|00001ad0| 53 69 6d 70 6c 65 43 68 61 6e 6e 65 6c 49 6e 62 |SimpleChannelInb|
+|00001ae0| 6f 75 6e 64 48 61 6e 64 6c 65 72 2e 6a 61 76 61 |oundHandler.java|
+|00001af0| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 31 |","lineNumber":1|
+|00001b00| 30 35 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |05},{"declaringC|
+|00001b10| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00001b20| 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 |channel.Abstract|
+|00001b30| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|00001b40| 6e 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 |ntext","methodNa|
+|00001b50| 6d 65 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e |me":"invokeChann|
+|00001b60| 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d |elRead","fileNam|
+|00001b70| 65 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e |e":"AbstractChan|
+|00001b80| 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 |nelHandlerContex|
+|00001b90| 74 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |t.java","lineNum|
+|00001ba0| 62 65 72 22 3a 33 37 34 7d 2c 7b 22 64 65 63 6c |ber":374},{"decl|
+|00001bb0| 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e |aringClass":"io.|
+|00001bc0| 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 |netty.channel.Ab|
+|00001bd0| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00001be0| 64 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 |dlerContext","me|
+|00001bf0| 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b |thodName":"invok|
+|00001c00| 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 |eChannelRead","f|
+|00001c10| 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 |ileName":"Abstra|
+|00001c20| 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 |ctChannelHandler|
+|00001c30| 43 6f 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c |Context.java","l|
+|00001c40| 69 6e 65 4e 75 6d 62 65 72 22 3a 33 36 30 7d 2c |ineNumber":360},|
+|00001c50| 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 |{"declaringClass|
+|00001c60| 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e |":"io.netty.chan|
+|00001c70| 6e 65 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e |nel.AbstractChan|
+|00001c80| 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 |nelHandlerContex|
+|00001c90| 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a |t","methodName":|
+|00001ca0| 22 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 |"fireChannelRead|
+|00001cb0| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 |","fileName":"Ab|
+|00001cc0| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00001cd0| 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 |dlerContext.java|
+|00001ce0| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 |","lineNumber":3|
+|00001cf0| 35 32 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |52},{"declaringC|
+|00001d00| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00001d10| 68 61 6e 64 6c 65 72 2e 63 6f 64 65 63 2e 4d 65 |handler.codec.Me|
+|00001d20| 73 73 61 67 65 54 6f 4d 65 73 73 61 67 65 44 65 |ssageToMessageDe|
+|00001d30| 63 6f 64 65 72 22 2c 22 6d 65 74 68 6f 64 4e 61 |coder","methodNa|
+|00001d40| 6d 65 22 3a 22 63 68 61 6e 6e 65 6c 52 65 61 64 |me":"channelRead|
+|00001d50| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 4d 65 |","fileName":"Me|
+|00001d60| 73 73 61 67 65 54 6f 4d 65 73 73 61 67 65 44 65 |ssageToMessageDe|
+|00001d70| 63 6f 64 65 72 2e 6a 61 76 61 22 2c 22 6c 69 6e |coder.java","lin|
+|00001d80| 65 4e 75 6d 62 65 72 22 3a 31 30 32 7d 2c 7b 22 |eNumber":102},{"|
+|00001d90| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|00001da0| 22 69 6f 2e 6e 65 74 74 79 2e 68 61 6e 64 6c 65 |"io.netty.handle|
+|00001db0| 72 2e 63 6f 64 65 63 2e 4d 65 73 73 61 67 65 54 |r.codec.MessageT|
+|00001dc0| 6f 4d 65 73 73 61 67 65 43 6f 64 65 63 22 2c 22 |oMessageCodec","|
+|00001dd0| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 63 68 61 |methodName":"cha|
+|00001de0| 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e |nnelRead","fileN|
+|00001df0| 61 6d 65 22 3a 22 4d 65 73 73 61 67 65 54 6f 4d |ame":"MessageToM|
+|00001e00| 65 73 73 61 67 65 43 6f 64 65 63 2e 6a 61 76 61 |essageCodec.java|
+|00001e10| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 31 |","lineNumber":1|
+|00001e20| 31 31 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |11},{"declaringC|
+|00001e30| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00001e40| 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 |channel.Abstract|
+|00001e50| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|00001e60| 6e 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 |ntext","methodNa|
+|00001e70| 6d 65 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e |me":"invokeChann|
+|00001e80| 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d |elRead","fileNam|
+|00001e90| 65 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e |e":"AbstractChan|
+|00001ea0| 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 |nelHandlerContex|
+|00001eb0| 74 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |t.java","lineNum|
+|00001ec0| 62 65 72 22 3a 33 37 34 7d 2c 7b 22 64 65 63 6c |ber":374},{"decl|
+|00001ed0| 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e |aringClass":"io.|
+|00001ee0| 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 |netty.channel.Ab|
+|00001ef0| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00001f00| 64 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 |dlerContext","me|
+|00001f10| 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b |thodName":"invok|
+|00001f20| 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 |eChannelRead","f|
+|00001f30| 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 |ileName":"Abstra|
+|00001f40| 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 |ctChannelHandler|
+|00001f50| 43 6f 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c |Context.java","l|
+|00001f60| 69 6e 65 4e 75 6d 62 65 72 22 3a 33 36 30 7d 2c |ineNumber":360},|
+|00001f70| 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 |{"declaringClass|
+|00001f80| 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e |":"io.netty.chan|
+|00001f90| 6e 65 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e |nel.AbstractChan|
+|00001fa0| 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 |nelHandlerContex|
+|00001fb0| 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a |t","methodName":|
+|00001fc0| 22 66 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 |"fireChannelRead|
+|00001fd0| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 |","fileName":"Ab|
+|00001fe0| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00001ff0| 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 |dlerContext.java|
+|00002000| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 |","lineNumber":3|
+|00002010| 35 32 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |52},{"declaringC|
+|00002020| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00002030| 68 61 6e 64 6c 65 72 2e 6c 6f 67 67 69 6e 67 2e |handler.logging.|
+|00002040| 4c 6f 67 67 69 6e 67 48 61 6e 64 6c 65 72 22 2c |LoggingHandler",|
+|00002050| 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 63 68 |"methodName":"ch|
+|00002060| 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 |annelRead","file|
+|00002070| 4e 61 6d 65 22 3a 22 4c 6f 67 67 69 6e 67 48 61 |Name":"LoggingHa|
+|00002080| 6e 64 6c 65 72 2e 6a 61 76 61 22 2c 22 6c 69 6e |ndler.java","lin|
+|00002090| 65 4e 75 6d 62 65 72 22 3a 32 34 31 7d 2c 7b 22 |eNumber":241},{"|
+|000020a0| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|000020b0| 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 |"io.netty.channe|
+|000020c0| 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 |l.AbstractChanne|
+|000020d0| 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 22 |lHandlerContext"|
+|000020e0| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 69 |,"methodName":"i|
+|000020f0| 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 64 |nvokeChannelRead|
+|00002100| 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 62 |","fileName":"Ab|
+|00002110| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00002120| 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 61 |dlerContext.java|
+|00002130| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 33 |","lineNumber":3|
+|00002140| 37 34 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |74},{"declaringC|
+|00002150| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00002160| 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 63 74 |channel.Abstract|
+|00002170| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|00002180| 6e 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 4e 61 |ntext","methodNa|
+|00002190| 6d 65 22 3a 22 69 6e 76 6f 6b 65 43 68 61 6e 6e |me":"invokeChann|
+|000021a0| 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d |elRead","fileNam|
+|000021b0| 65 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e |e":"AbstractChan|
+|000021c0| 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 |nelHandlerContex|
+|000021d0| 74 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |t.java","lineNum|
+|000021e0| 62 65 72 22 3a 33 36 30 7d 2c 7b 22 64 65 63 6c |ber":360},{"decl|
+|000021f0| 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e |aringClass":"io.|
+|00002200| 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 |netty.channel.Ab|
+|00002210| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|00002220| 64 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 |dlerContext","me|
+|00002230| 74 68 6f 64 4e 61 6d 65 22 3a 22 66 69 72 65 43 |thodName":"fireC|
+|00002240| 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 6c |hannelRead","fil|
+|00002250| 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 74 |eName":"Abstract|
+|00002260| 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 6f |ChannelHandlerCo|
+|00002270| 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 6e |ntext.java","lin|
+|00002280| 65 4e 75 6d 62 65 72 22 3a 33 35 32 7d 2c 7b 22 |eNumber":352},{"|
+|00002290| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|000022a0| 22 69 6f 2e 6e 65 74 74 79 2e 68 61 6e 64 6c 65 |"io.netty.handle|
+|000022b0| 72 2e 63 6f 64 65 63 2e 42 79 74 65 54 6f 4d 65 |r.codec.ByteToMe|
+|000022c0| 73 73 61 67 65 44 65 63 6f 64 65 72 22 2c 22 6d |ssageDecoder","m|
+|000022d0| 65 74 68 6f 64 4e 61 6d 65 22 3a 22 66 69 72 65 |ethodName":"fire|
+|000022e0| 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 |ChannelRead","fi|
+|000022f0| 6c 65 4e 61 6d 65 22 3a 22 42 79 74 65 54 6f 4d |leName":"ByteToM|
+|00002300| 65 73 73 61 67 65 44 65 63 6f 64 65 72 2e 6a 61 |essageDecoder.ja|
+|00002310| 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 |va","lineNumber"|
+|00002320| 3a 33 32 38 7d 2c 7b 22 64 65 63 6c 61 72 69 6e |:328},{"declarin|
+|00002330| 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 |gClass":"io.nett|
+|00002340| 79 2e 68 61 6e 64 6c 65 72 2e 63 6f 64 65 63 2e |y.handler.codec.|
+|00002350| 42 79 74 65 54 6f 4d 65 73 73 61 67 65 44 65 63 |ByteToMessageDec|
+|00002360| 6f 64 65 72 22 2c 22 6d 65 74 68 6f 64 4e 61 6d |oder","methodNam|
+|00002370| 65 22 3a 22 63 68 61 6e 6e 65 6c 52 65 61 64 22 |e":"channelRead"|
+|00002380| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 42 79 74 |,"fileName":"Byt|
+|00002390| 65 54 6f 4d 65 73 73 61 67 65 44 65 63 6f 64 65 |eToMessageDecode|
+|000023a0| 72 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |r.java","lineNum|
+|000023b0| 62 65 72 22 3a 33 30 32 7d 2c 7b 22 64 65 63 6c |ber":302},{"decl|
+|000023c0| 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e |aringClass":"io.|
+|000023d0| 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 |netty.channel.Ab|
+|000023e0| 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e |stractChannelHan|
+|000023f0| 64 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 |dlerContext","me|
+|00002400| 74 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b |thodName":"invok|
+|00002410| 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 |eChannelRead","f|
+|00002420| 69 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 |ileName":"Abstra|
+|00002430| 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 |ctChannelHandler|
+|00002440| 43 6f 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c |Context.java","l|
+|00002450| 69 6e 65 4e 75 6d 62 65 72 22 3a 33 37 34 7d 2c |ineNumber":374},|
+|00002460| 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 |{"declaringClass|
+|00002470| 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e |":"io.netty.chan|
+|00002480| 6e 65 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e |nel.AbstractChan|
+|00002490| 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 |nelHandlerContex|
+|000024a0| 74 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a |t","methodName":|
+|000024b0| 22 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 |"invokeChannelRe|
+|000024c0| 61 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 |ad","fileName":"|
+|000024d0| 41 62 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 |AbstractChannelH|
+|000024e0| 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 |andlerContext.ja|
+|000024f0| 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 |va","lineNumber"|
+|00002500| 3a 33 36 30 7d 2c 7b 22 64 65 63 6c 61 72 69 6e |:360},{"declarin|
+|00002510| 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 |gClass":"io.nett|
+|00002520| 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 74 72 61 |y.channel.Abstra|
+|00002530| 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 |ctChannelHandler|
+|00002540| 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 68 6f 64 |Context","method|
+|00002550| 4e 61 6d 65 22 3a 22 66 69 72 65 43 68 61 6e 6e |Name":"fireChann|
+|00002560| 65 6c 52 65 61 64 22 2c 22 66 69 6c 65 4e 61 6d |elRead","fileNam|
+|00002570| 65 22 3a 22 41 62 73 74 72 61 63 74 43 68 61 6e |e":"AbstractChan|
+|00002580| 6e 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 |nelHandlerContex|
+|00002590| 74 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |t.java","lineNum|
+|000025a0| 62 65 72 22 3a 33 35 32 7d 2c 7b 22 64 65 63 6c |ber":352},{"decl|
+|000025b0| 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e |aringClass":"io.|
+|000025c0| 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 44 65 |netty.channel.De|
+|000025d0| 66 61 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 65 |faultChannelPipe|
+|000025e0| 6c 69 6e 65 24 48 65 61 64 43 6f 6e 74 65 78 74 |line$HeadContext|
+|000025f0| 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 |","methodName":"|
+|00002600| 63 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 |channelRead","fi|
+|00002610| 6c 65 4e 61 6d 65 22 3a 22 44 65 66 61 75 6c 74 |leName":"Default|
+|00002620| 43 68 61 6e 6e 65 6c 50 69 70 65 6c 69 6e 65 2e |ChannelPipeline.|
+|00002630| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|00002640| 72 22 3a 31 34 32 31 7d 2c 7b 22 64 65 63 6c 61 |r":1421},{"decla|
+|00002650| 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e |ringClass":"io.n|
+|00002660| 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 41 62 73 |etty.channel.Abs|
+|00002670| 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 6e 64 |tractChannelHand|
+|00002680| 6c 65 72 43 6f 6e 74 65 78 74 22 2c 22 6d 65 74 |lerContext","met|
+|00002690| 68 6f 64 4e 61 6d 65 22 3a 22 69 6e 76 6f 6b 65 |hodName":"invoke|
+|000026a0| 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c 22 66 69 |ChannelRead","fi|
+|000026b0| 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 |leName":"Abstrac|
+|000026c0| 74 43 68 61 6e 6e 65 6c 48 61 6e 64 6c 65 72 43 |tChannelHandlerC|
+|000026d0| 6f 6e 74 65 78 74 2e 6a 61 76 61 22 2c 22 6c 69 |ontext.java","li|
+|000026e0| 6e 65 4e 75 6d 62 65 72 22 3a 33 37 34 7d 2c 7b |neNumber":374},{|
+|000026f0| 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 |"declaringClass"|
+|00002700| 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e |:"io.netty.chann|
+|00002710| 65 6c 2e 41 62 73 74 72 61 63 74 43 68 61 6e 6e |el.AbstractChann|
+|00002720| 65 6c 48 61 6e 64 6c 65 72 43 6f 6e 74 65 78 74 |elHandlerContext|
+|00002730| 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 |","methodName":"|
+|00002740| 69 6e 76 6f 6b 65 43 68 61 6e 6e 65 6c 52 65 61 |invokeChannelRea|
+|00002750| 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 41 |d","fileName":"A|
+|00002760| 62 73 74 72 61 63 74 43 68 61 6e 6e 65 6c 48 61 |bstractChannelHa|
+|00002770| 6e 64 6c 65 72 43 6f 6e 74 65 78 74 2e 6a 61 76 |ndlerContext.jav|
+|00002780| 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a |a","lineNumber":|
+|00002790| 33 36 30 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 |360},{"declaring|
+|000027a0| 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 |Class":"io.netty|
+|000027b0| 2e 63 68 61 6e 6e 65 6c 2e 44 65 66 61 75 6c 74 |.channel.Default|
+|000027c0| 43 68 61 6e 6e 65 6c 50 69 70 65 6c 69 6e 65 22 |ChannelPipeline"|
+|000027d0| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 66 |,"methodName":"f|
+|000027e0| 69 72 65 43 68 61 6e 6e 65 6c 52 65 61 64 22 2c |ireChannelRead",|
+|000027f0| 22 66 69 6c 65 4e 61 6d 65 22 3a 22 44 65 66 61 |"fileName":"Defa|
+|00002800| 75 6c 74 43 68 61 6e 6e 65 6c 50 69 70 65 6c 69 |ultChannelPipeli|
+|00002810| 6e 65 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 |ne.java","lineNu|
+|00002820| 6d 62 65 72 22 3a 39 33 30 7d 2c 7b 22 64 65 63 |mber":930},{"dec|
+|00002830| 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f |laringClass":"io|
+|00002840| 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 6e |.netty.channel.n|
+|00002850| 69 6f 2e 41 62 73 74 72 61 63 74 4e 69 6f 42 79 |io.AbstractNioBy|
+|00002860| 74 65 43 68 61 6e 6e 65 6c 24 4e 69 6f 42 79 74 |teChannel$NioByt|
+|00002870| 65 55 6e 73 61 66 65 22 2c 22 6d 65 74 68 6f 64 |eUnsafe","method|
+|00002880| 4e 61 6d 65 22 3a 22 72 65 61 64 22 2c 22 66 69 |Name":"read","fi|
+|00002890| 6c 65 4e 61 6d 65 22 3a 22 41 62 73 74 72 61 63 |leName":"Abstrac|
+|000028a0| 74 4e 69 6f 42 79 74 65 43 68 61 6e 6e 65 6c 2e |tNioByteChannel.|
+|000028b0| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|000028c0| 72 22 3a 31 36 33 7d 2c 7b 22 64 65 63 6c 61 72 |r":163},{"declar|
+|000028d0| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|000028e0| 74 74 79 2e 63 68 61 6e 6e 65 6c 2e 6e 69 6f 2e |tty.channel.nio.|
+|000028f0| 4e 69 6f 45 76 65 6e 74 4c 6f 6f 70 22 2c 22 6d |NioEventLoop","m|
+|00002900| 65 74 68 6f 64 4e 61 6d 65 22 3a 22 70 72 6f 63 |ethodName":"proc|
+|00002910| 65 73 73 53 65 6c 65 63 74 65 64 4b 65 79 22 2c |essSelectedKey",|
+|00002920| 22 66 69 6c 65 4e 61 6d 65 22 3a 22 4e 69 6f 45 |"fileName":"NioE|
+|00002930| 76 65 6e 74 4c 6f 6f 70 2e 6a 61 76 61 22 2c 22 |ventLoop.java","|
+|00002940| 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 36 39 37 7d |lineNumber":697}|
+|00002950| 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 |,{"declaringClas|
+|00002960| 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 |s":"io.netty.cha|
+|00002970| 6e 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f 45 76 65 6e |nnel.nio.NioEven|
+|00002980| 74 4c 6f 6f 70 22 2c 22 6d 65 74 68 6f 64 4e 61 |tLoop","methodNa|
+|00002990| 6d 65 22 3a 22 70 72 6f 63 65 73 73 53 65 6c 65 |me":"processSele|
+|000029a0| 63 74 65 64 4b 65 79 73 4f 70 74 69 6d 69 7a 65 |ctedKeysOptimize|
+|000029b0| 64 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 4e |d","fileName":"N|
+|000029c0| 69 6f 45 76 65 6e 74 4c 6f 6f 70 2e 6a 61 76 61 |ioEventLoop.java|
+|000029d0| 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 36 |","lineNumber":6|
+|000029e0| 33 32 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 |32},{"declaringC|
+|000029f0| 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e |lass":"io.netty.|
+|00002a00| 63 68 61 6e 6e 65 6c 2e 6e 69 6f 2e 4e 69 6f 45 |channel.nio.NioE|
+|00002a10| 76 65 6e 74 4c 6f 6f 70 22 2c 22 6d 65 74 68 6f |ventLoop","metho|
+|00002a20| 64 4e 61 6d 65 22 3a 22 70 72 6f 63 65 73 73 53 |dName":"processS|
+|00002a30| 65 6c 65 63 74 65 64 4b 65 79 73 22 2c 22 66 69 |electedKeys","fi|
+|00002a40| 6c 65 4e 61 6d 65 22 3a 22 4e 69 6f 45 76 65 6e |leName":"NioEven|
+|00002a50| 74 4c 6f 6f 70 2e 6a 61 76 61 22 2c 22 6c 69 6e |tLoop.java","lin|
+|00002a60| 65 4e 75 6d 62 65 72 22 3a 35 34 39 7d 2c 7b 22 |eNumber":549},{"|
+|00002a70| 64 65 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a |declaringClass":|
+|00002a80| 22 69 6f 2e 6e 65 74 74 79 2e 63 68 61 6e 6e 65 |"io.netty.channe|
+|00002a90| 6c 2e 6e 69 6f 2e 4e 69 6f 45 76 65 6e 74 4c 6f |l.nio.NioEventLo|
+|00002aa0| 6f 70 22 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 |op","methodName"|
+|00002ab0| 3a 22 72 75 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 |:"run","fileName|
+|00002ac0| 22 3a 22 4e 69 6f 45 76 65 6e 74 4c 6f 6f 70 2e |":"NioEventLoop.|
+|00002ad0| 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d 62 65 |java","lineNumbe|
+|00002ae0| 72 22 3a 35 31 31 7d 2c 7b 22 64 65 63 6c 61 72 |r":511},{"declar|
+|00002af0| 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e 65 |ingClass":"io.ne|
+|00002b00| 74 74 79 2e 75 74 69 6c 2e 63 6f 6e 63 75 72 72 |tty.util.concurr|
+|00002b10| 65 6e 74 2e 53 69 6e 67 6c 65 54 68 72 65 61 64 |ent.SingleThread|
+|00002b20| 45 76 65 6e 74 45 78 65 63 75 74 6f 72 24 35 22 |EventExecutor$5"|
+|00002b30| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 72 |,"methodName":"r|
+|00002b40| 75 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 |un","fileName":"|
+|00002b50| 53 69 6e 67 6c 65 54 68 72 65 61 64 45 76 65 6e |SingleThreadEven|
+|00002b60| 74 45 78 65 63 75 74 6f 72 2e 6a 61 76 61 22 2c |tExecutor.java",|
+|00002b70| 22 6c 69 6e 65 4e 75 6d 62 65 72 22 3a 39 31 38 |"lineNumber":918|
+|00002b80| 7d 2c 7b 22 64 65 63 6c 61 72 69 6e 67 43 6c 61 |},{"declaringCla|
+|00002b90| 73 73 22 3a 22 69 6f 2e 6e 65 74 74 79 2e 75 74 |ss":"io.netty.ut|
+|00002ba0| 69 6c 2e 69 6e 74 65 72 6e 61 6c 2e 54 68 72 65 |il.internal.Thre|
+|00002bb0| 61 64 45 78 65 63 75 74 6f 72 4d 61 70 24 32 22 |adExecutorMap$2"|
+|00002bc0| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 72 |,"methodName":"r|
+|00002bd0| 75 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 |un","fileName":"|
+|00002be0| 54 68 72 65 61 64 45 78 65 63 75 74 6f 72 4d 61 |ThreadExecutorMa|
+|00002bf0| 70 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 4e 75 6d |p.java","lineNum|
+|00002c00| 62 65 72 22 3a 37 34 7d 2c 7b 22 64 65 63 6c 61 |ber":74},{"decla|
+|00002c10| 72 69 6e 67 43 6c 61 73 73 22 3a 22 69 6f 2e 6e |ringClass":"io.n|
+|00002c20| 65 74 74 79 2e 75 74 69 6c 2e 63 6f 6e 63 75 72 |etty.util.concur|
+|00002c30| 72 65 6e 74 2e 46 61 73 74 54 68 72 65 61 64 4c |rent.FastThreadL|
+|00002c40| 6f 63 61 6c 52 75 6e 6e 61 62 6c 65 22 2c 22 6d |ocalRunnable","m|
+|00002c50| 65 74 68 6f 64 4e 61 6d 65 22 3a 22 72 75 6e 22 |ethodName":"run"|
+|00002c60| 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 46 61 73 |,"fileName":"Fas|
+|00002c70| 74 54 68 72 65 61 64 4c 6f 63 61 6c 52 75 6e 6e |tThreadLocalRunn|
+|00002c80| 61 62 6c 65 2e 6a 61 76 61 22 2c 22 6c 69 6e 65 |able.java","line|
+|00002c90| 4e 75 6d 62 65 72 22 3a 33 30 7d 2c 7b 22 64 65 |Number":30},{"de|
+|00002ca0| 63 6c 61 72 69 6e 67 43 6c 61 73 73 22 3a 22 6a |claringClass":"j|
+|00002cb0| 61 76 61 2e 6c 61 6e 67 2e 54 68 72 65 61 64 22 |ava.lang.Thread"|
+|00002cc0| 2c 22 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 72 |,"methodName":"r|
+|00002cd0| 75 6e 22 2c 22 66 69 6c 65 4e 61 6d 65 22 3a 22 |un","fileName":"|
+|00002ce0| 54 68 72 65 61 64 2e 6a 61 76 61 22 2c 22 6c 69 |Thread.java","li|
+|00002cf0| 6e 65 4e 75 6d 62 65 72 22 3a 37 35 30 7d 5d 2c |neNumber":750}],|
+|00002d00| 22 73 75 70 70 72 65 73 73 65 64 45 78 63 65 70 |"suppressedExcep|
+|00002d10| 74 69 6f 6e 73 22 3a 5b 5d 7d 2c 22 73 65 71 75 |tions":[]},"sequ|
+|00002d20| 65 6e 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 |enceId":1,"messa|
+|00002d30| 67 65 54 79 70 65 22 3a 30 7d                   |geType":0}      |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:23:39.590  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0xee23fc69, L:/127.0.0.1:8080 - R:/127.0.0.1:60801] FLUSH
+2024-07-08 00:23:39.592  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0xee23fc69, L:/127.0.0.1:8080 - R:/127.0.0.1:60801] READ COMPLETE
+2024-07-08 00:23:39.597  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf63dd0b6, L:/127.0.0.1:60801 - R:localhost/127.0.0.1:8080] EXCEPTION: io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 11578 - discarded
+io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 11578 - discarded
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.fail(LengthFieldBasedFrameDecoder.java:513)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.failIfNecessary(LengthFieldBasedFrameDecoder.java:491)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.exceededFrameLength(LengthFieldBasedFrameDecoder.java:378)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:421)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:334)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:505)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-08 00:23:39.598  WARN  [nioEventLoopGroup-2-1] i.n.c.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.TooLongFrameException: Adjusted frame length exceeds 1024: 11578 - discarded
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.fail(LengthFieldBasedFrameDecoder.java:513)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.failIfNecessary(LengthFieldBasedFrameDecoder.java:491)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.exceededFrameLength(LengthFieldBasedFrameDecoder.java:378)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:421)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:334)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:505)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-08 00:23:39.598  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf63dd0b6, L:/127.0.0.1:60801 - R:localhost/127.0.0.1:8080] READ COMPLETE
+2024-07-08 00:26:32.482  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-07-08 00:26:32.490  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-07-08 00:26:32.511  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-07-08 00:26:32.512  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-07-08 00:26:32.523  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-07-08 00:26:32.523  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-07-08 00:26:32.545  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-07-08 00:26:32.548  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-07-08 00:26:32.548  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-07-08 00:26:32.550  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-07-08 00:26:32.551  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-07-08 00:26:32.552  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-07-08 00:26:32.553  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-07-08 00:26:32.554  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-07-08 00:26:32.555  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-07-08 00:26:32.555  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-07-08 00:26:32.555  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-07-08 00:26:32.555  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-07-08 00:26:32.555  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-07-08 00:26:32.558  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-07-08 00:26:32.559  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-07-08 00:26:32.562  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-07-08 00:26:32.563  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-07-08 00:26:32.573  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-07-08 00:26:33.299  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 40344 (auto-detected)
+2024-07-08 00:26:33.303  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-07-08 00:26:33.303  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-07-08 00:26:33.738  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-07-08 00:26:33.743  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-07-08 00:26:34.236  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-07-08 00:26:34.253  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-07-08 00:26:34.253  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-07-08 00:26:34.285  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-07-08 00:26:34.285  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-07-08 00:26:34.286  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-07-08 00:26:34.287  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-07-08 00:26:34.287  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-07-08 00:26:34.299  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-07-08 00:26:34.300  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-07-08 00:26:34.300  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-08 00:26:35.898  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-07-08 00:26:35.904  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-07-08 00:26:35.926  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-07-08 00:26:35.926  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-07-08 00:26:35.938  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-07-08 00:26:35.939  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-07-08 00:26:35.959  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-07-08 00:26:35.961  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-07-08 00:26:35.962  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-07-08 00:26:35.963  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-07-08 00:26:35.964  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-07-08 00:26:35.965  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-07-08 00:26:35.966  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-07-08 00:26:35.968  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-07-08 00:26:35.969  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-07-08 00:26:35.969  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-07-08 00:26:35.969  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-07-08 00:26:35.970  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-07-08 00:26:35.970  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-07-08 00:26:35.973  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-07-08 00:26:35.973  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-07-08 00:26:35.975  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-07-08 00:26:35.975  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-07-08 00:26:35.983  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-07-08 00:26:36.652  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 40704 (auto-detected)
+2024-07-08 00:26:36.656  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-07-08 00:26:36.657  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-07-08 00:26:37.146  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-07-08 00:26:37.151  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-07-08 00:26:37.672  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-07-08 00:26:37.693  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-07-08 00:26:37.694  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-07-08 00:26:37.732  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-07-08 00:26:37.733  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-07-08 00:26:37.733  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-07-08 00:26:37.733  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-07-08 00:26:37.733  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-07-08 00:26:37.733  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-07-08 00:26:37.733  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-07-08 00:26:37.734  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-07-08 00:26:37.734  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-07-08 00:26:37.734  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-07-08 00:26:37.734  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-07-08 00:26:37.735  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-07-08 00:26:37.735  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-07-08 00:26:37.750  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-07-08 00:26:37.750  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-07-08 00:26:37.750  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-08 00:26:37.798  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf492e443] REGISTERED
+2024-07-08 00:26:37.800  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf492e443] CONNECT: localhost/127.0.0.1:8080
+2024-07-08 00:26:37.804  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf492e443, L:/127.0.0.1:61123 - R:localhost/127.0.0.1:8080] ACTIVE
+2024-07-08 00:26:37.808  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-07-08 00:26:37.810  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-07-08 00:26:37.811  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-07-08 00:26:37.812  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-07-08 00:26:37.832  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-07-08 00:26:37.832  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-07-08 00:26:37.834  DEBUG [nioEventLoopGroup-2-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@170f2a0c
+2024-07-08 00:26:37.837  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - encode...
+2024-07-08 00:26:37.839  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x0176c2bc, L:/127.0.0.1:8080 - R:/127.0.0.1:61123] REGISTERED
+2024-07-08 00:26:37.840  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x0176c2bc, L:/127.0.0.1:8080 - R:/127.0.0.1:61123] ACTIVE
+2024-07-08 00:26:37.898  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf492e443, L:/127.0.0.1:61123 - R:localhost/127.0.0.1:8080] WRITE: 232B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d8 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |:"com.snwolf.cha|
+|00000030| 74 2e 73 65 72 76 65 72 2e 73 65 72 76 69 63 65 |t.server.service|
+|00000040| 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 22 2c 22 |.HelloService","|
+|00000050| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 73 61 79 |methodName":"say|
+|00000060| 48 65 6c 6c 6f 22 2c 22 72 65 74 75 72 6e 54 79 |Hello","returnTy|
+|00000070| 70 65 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 |pe":"java.lang.S|
+|00000080| 74 72 69 6e 67 22 2c 22 70 61 72 61 6d 65 74 65 |tring","paramete|
+|00000090| 72 54 79 70 65 73 22 3a 5b 22 6a 61 76 61 2e 6c |rTypes":["java.l|
+|000000a0| 61 6e 67 2e 53 74 72 69 6e 67 22 5d 2c 22 70 61 |ang.String"],"pa|
+|000000b0| 72 61 6d 65 74 65 72 56 61 6c 75 65 22 3a 5b 22 |rameterValue":["|
+|000000c0| e5 bc a0 e4 b8 89 22 5d 2c 22 73 65 71 75 65 6e |......"],"sequen|
+|000000d0| 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 67 65 |ceId":1,"message|
+|000000e0| 54 79 70 65 22 3a 30 7d                         |Type":0}        |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:26:37.899  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf492e443, L:/127.0.0.1:61123 - R:localhost/127.0.0.1:8080] FLUSH
+2024-07-08 00:26:37.906  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-07-08 00:26:37.906  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-07-08 00:26:37.907  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-07-08 00:26:37.907  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-07-08 00:26:37.917  DEBUG [nioEventLoopGroup-3-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-07-08 00:26:37.917  DEBUG [nioEventLoopGroup-3-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-07-08 00:26:37.919  DEBUG [nioEventLoopGroup-3-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6413d645
+2024-07-08 00:26:37.931  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x0176c2bc, L:/127.0.0.1:8080 - R:/127.0.0.1:61123] READ: 232B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d8 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |:"com.snwolf.cha|
+|00000030| 74 2e 73 65 72 76 65 72 2e 73 65 72 76 69 63 65 |t.server.service|
+|00000040| 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 22 2c 22 |.HelloService","|
+|00000050| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 73 61 79 |methodName":"say|
+|00000060| 48 65 6c 6c 6f 22 2c 22 72 65 74 75 72 6e 54 79 |Hello","returnTy|
+|00000070| 70 65 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 |pe":"java.lang.S|
+|00000080| 74 72 69 6e 67 22 2c 22 70 61 72 61 6d 65 74 65 |tring","paramete|
+|00000090| 72 54 79 70 65 73 22 3a 5b 22 6a 61 76 61 2e 6c |rTypes":["java.l|
+|000000a0| 61 6e 67 2e 53 74 72 69 6e 67 22 5d 2c 22 70 61 |ang.String"],"pa|
+|000000b0| 72 61 6d 65 74 65 72 56 61 6c 75 65 22 3a 5b 22 |rameterValue":["|
+|000000c0| e5 bc a0 e4 b8 89 22 5d 2c 22 73 65 71 75 65 6e |......"],"sequen|
+|000000d0| 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 67 65 |ceId":1,"message|
+|000000e0| 54 79 70 65 22 3a 30 7d                         |Type":0}        |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:26:37.932  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode...
+2024-07-08 00:26:37.999  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode message: RpcRequestMessage(super=Message(sequenceId=1, messageType=101), interfaceName=com.snwolf.chat.server.service.HelloService, methodName=sayHello, returnType=class java.lang.String, parameterTypes=[class java.lang.String], parameterValue=[张三])
+2024-07-08 00:26:38.007  ERROR [nioEventLoopGroup-3-1] c.s.c.s.h.RpcRequestMessageHandler - exception: {}
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.snwolf.chat.server.handler.RpcRequestMessageHandler.channelRead0(RpcRequestMessageHandler.java:29)
+	at com.snwolf.chat.server.handler.RpcRequestMessageHandler.channelRead0(RpcRequestMessageHandler.java:20)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:241)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:328)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ArithmeticException: / by zero
+	at com.snwolf.chat.server.service.HelloServiceImpl.sayHello(HelloServiceImpl.java:12)
+	... 37 common frames omitted
+2024-07-08 00:26:38.008  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - encode...
+2024-07-08 00:26:38.014  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x0176c2bc, L:/127.0.0.1:8080 - R:/127.0.0.1:61123] WRITE: 152B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 01 ff 00 00 00 88 |......f.........|
+|00000010| 7b 22 65 78 63 65 70 74 69 6f 6e 56 61 6c 75 65 |{"exceptionValue|
+|00000020| 22 3a 7b 22 64 65 74 61 69 6c 4d 65 73 73 61 67 |":{"detailMessag|
+|00000030| 65 22 3a 22 e8 bf 9c e7 a8 8b e8 b0 83 e7 94 a8 |e":"............|
+|00000040| e5 bc 82 e5 b8 b8 3a 20 6e 75 6c 6c 22 2c 22 73 |......: null","s|
+|00000050| 74 61 63 6b 54 72 61 63 65 22 3a 5b 5d 2c 22 73 |tackTrace":[],"s|
+|00000060| 75 70 70 72 65 73 73 65 64 45 78 63 65 70 74 69 |uppressedExcepti|
+|00000070| 6f 6e 73 22 3a 5b 5d 7d 2c 22 73 65 71 75 65 6e |ons":[]},"sequen|
+|00000080| 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 67 65 |ceId":1,"message|
+|00000090| 54 79 70 65 22 3a 30 7d                         |Type":0}        |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:26:38.015  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x0176c2bc, L:/127.0.0.1:8080 - R:/127.0.0.1:61123] FLUSH
+2024-07-08 00:26:38.017  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x0176c2bc, L:/127.0.0.1:8080 - R:/127.0.0.1:61123] READ COMPLETE
+2024-07-08 00:26:38.021  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf492e443, L:/127.0.0.1:61123 - R:localhost/127.0.0.1:8080] READ: 152B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 01 ff 00 00 00 88 |......f.........|
+|00000010| 7b 22 65 78 63 65 70 74 69 6f 6e 56 61 6c 75 65 |{"exceptionValue|
+|00000020| 22 3a 7b 22 64 65 74 61 69 6c 4d 65 73 73 61 67 |":{"detailMessag|
+|00000030| 65 22 3a 22 e8 bf 9c e7 a8 8b e8 b0 83 e7 94 a8 |e":"............|
+|00000040| e5 bc 82 e5 b8 b8 3a 20 6e 75 6c 6c 22 2c 22 73 |......: null","s|
+|00000050| 74 61 63 6b 54 72 61 63 65 22 3a 5b 5d 2c 22 73 |tackTrace":[],"s|
+|00000060| 75 70 70 72 65 73 73 65 64 45 78 63 65 70 74 69 |uppressedExcepti|
+|00000070| 6f 6e 73 22 3a 5b 5d 7d 2c 22 73 65 71 75 65 6e |ons":[]},"sequen|
+|00000080| 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 67 65 |ceId":1,"message|
+|00000090| 54 79 70 65 22 3a 30 7d                         |Type":0}        |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:26:38.022  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode...
+2024-07-08 00:26:38.028  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: RpcResponseMessage(super=Message(sequenceId=1, messageType=102), returnValue=null, exceptionValue=java.lang.Exception: 远程调用异常: null)
+2024-07-08 00:26:38.030  INFO  [nioEventLoopGroup-2-1] c.s.c.c.h.RpcResponseMessageHandler - RpcResponseMessage(super=Message(sequenceId=1, messageType=102), returnValue=null, exceptionValue=java.lang.Exception: 远程调用异常: null)
+2024-07-08 00:26:38.030  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xf492e443, L:/127.0.0.1:61123 - R:localhost/127.0.0.1:8080] READ COMPLETE
+2024-07-08 00:27:57.773  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-07-08 00:27:57.780  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-07-08 00:27:57.802  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-07-08 00:27:57.802  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-07-08 00:27:57.812  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-07-08 00:27:57.813  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-07-08 00:27:57.836  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-07-08 00:27:57.840  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-07-08 00:27:57.840  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-07-08 00:27:57.843  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-07-08 00:27:57.845  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-07-08 00:27:57.846  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-07-08 00:27:57.847  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-07-08 00:27:57.848  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-07-08 00:27:57.848  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-07-08 00:27:57.848  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-07-08 00:27:57.848  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-07-08 00:27:57.849  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-07-08 00:27:57.849  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-07-08 00:27:57.851  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-07-08 00:27:57.853  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-07-08 00:27:57.854  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-07-08 00:27:57.856  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-07-08 00:27:57.866  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-07-08 00:27:58.598  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 29920 (auto-detected)
+2024-07-08 00:27:58.602  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-07-08 00:27:58.602  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-07-08 00:27:59.051  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-07-08 00:27:59.057  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-07-08 00:27:59.523  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-07-08 00:27:59.539  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-07-08 00:27:59.539  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-07-08 00:27:59.573  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-07-08 00:27:59.573  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-07-08 00:27:59.573  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-07-08 00:27:59.573  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-07-08 00:27:59.574  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-07-08 00:27:59.588  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-07-08 00:27:59.588  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-07-08 00:27:59.588  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-08 00:28:02.021  DEBUG [main] i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-07-08 00:28:02.031  DEBUG [main] i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 40
+2024-07-08 00:28:02.052  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-07-08 00:28:02.053  DEBUG [main] i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-07-08 00:28:02.064  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2024-07-08 00:28:02.064  DEBUG [main] i.n.c.n.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-07-08 00:28:02.083  DEBUG [main] i.n.u.i.PlatformDependent - Platform: Windows
+2024-07-08 00:28:02.085  DEBUG [main] i.n.u.i.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2024-07-08 00:28:02.086  DEBUG [main] i.n.u.i.PlatformDependent0 - Java version: 8
+2024-07-08 00:28:02.089  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2024-07-08 00:28:02.090  DEBUG [main] i.n.u.i.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2024-07-08 00:28:02.091  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Buffer.address: available
+2024-07-08 00:28:02.092  DEBUG [main] i.n.u.i.PlatformDependent0 - direct buffer constructor: available
+2024-07-08 00:28:02.094  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2024-07-08 00:28:02.094  DEBUG [main] i.n.u.i.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-07-08 00:28:02.095  DEBUG [main] i.n.u.i.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-07-08 00:28:02.095  DEBUG [main] i.n.u.i.PlatformDependent - sun.misc.Unsafe: available
+2024-07-08 00:28:02.096  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zhang\AppData\Local\Temp (java.io.tmpdir)
+2024-07-08 00:28:02.096  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-07-08 00:28:02.097  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.maxDirectMemory: 3747086336 bytes
+2024-07-08 00:28:02.098  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-07-08 00:28:02.100  DEBUG [main] i.n.u.i.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2024-07-08 00:28:02.100  DEBUG [main] i.n.u.i.PlatformDependent - -Dio.netty.noPreferDirect: false
+2024-07-08 00:28:02.109  DEBUG [main] i.n.u.i.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2024-07-08 00:28:02.777  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.processId: 732 (auto-detected)
+2024-07-08 00:28:02.781  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv4Stack: false
+2024-07-08 00:28:02.781  DEBUG [main] i.n.u.NetUtil - -Djava.net.preferIPv6Addresses: false
+2024-07-08 00:28:03.284  DEBUG [main] i.n.u.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-07-08 00:28:03.289  DEBUG [main] i.n.u.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-07-08 00:28:03.769  DEBUG [main] i.n.c.DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-07-08 00:28:03.784  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2024-07-08 00:28:03.784  DEBUG [main] i.n.u.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2024-07-08 00:28:03.816  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 37
+2024-07-08 00:28:03.816  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 37
+2024-07-08 00:28:03.817  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2024-07-08 00:28:03.817  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2024-07-08 00:28:03.817  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2024-07-08 00:28:03.817  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2024-07-08 00:28:03.817  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2024-07-08 00:28:03.817  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2024-07-08 00:28:03.817  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-07-08 00:28:03.817  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-07-08 00:28:03.818  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-07-08 00:28:03.818  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-07-08 00:28:03.818  DEBUG [main] i.n.b.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-07-08 00:28:03.830  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2024-07-08 00:28:03.831  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-07-08 00:28:03.831  DEBUG [main] i.n.b.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-07-08 00:28:03.885  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xc875e7c2] REGISTERED
+2024-07-08 00:28:03.886  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xc875e7c2] CONNECT: localhost/127.0.0.1:8080
+2024-07-08 00:28:03.892  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xc875e7c2, L:/127.0.0.1:61434 - R:localhost/127.0.0.1:8080] ACTIVE
+2024-07-08 00:28:03.897  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-07-08 00:28:03.897  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-07-08 00:28:03.897  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-07-08 00:28:03.898  DEBUG [main] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-07-08 00:28:03.920  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-07-08 00:28:03.921  DEBUG [nioEventLoopGroup-2-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-07-08 00:28:03.923  DEBUG [nioEventLoopGroup-2-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@89560c4
+2024-07-08 00:28:03.926  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - encode...
+2024-07-08 00:28:03.929  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x8a7f456e, L:/127.0.0.1:8080 - R:/127.0.0.1:61434] REGISTERED
+2024-07-08 00:28:03.929  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x8a7f456e, L:/127.0.0.1:8080 - R:/127.0.0.1:61434] ACTIVE
+2024-07-08 00:28:03.996  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xc875e7c2, L:/127.0.0.1:61434 - R:localhost/127.0.0.1:8080] WRITE: 232B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d8 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |:"com.snwolf.cha|
+|00000030| 74 2e 73 65 72 76 65 72 2e 73 65 72 76 69 63 65 |t.server.service|
+|00000040| 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 22 2c 22 |.HelloService","|
+|00000050| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 73 61 79 |methodName":"say|
+|00000060| 48 65 6c 6c 6f 22 2c 22 72 65 74 75 72 6e 54 79 |Hello","returnTy|
+|00000070| 70 65 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 |pe":"java.lang.S|
+|00000080| 74 72 69 6e 67 22 2c 22 70 61 72 61 6d 65 74 65 |tring","paramete|
+|00000090| 72 54 79 70 65 73 22 3a 5b 22 6a 61 76 61 2e 6c |rTypes":["java.l|
+|000000a0| 61 6e 67 2e 53 74 72 69 6e 67 22 5d 2c 22 70 61 |ang.String"],"pa|
+|000000b0| 72 61 6d 65 74 65 72 56 61 6c 75 65 22 3a 5b 22 |rameterValue":["|
+|000000c0| e5 bc a0 e4 b8 89 22 5d 2c 22 73 65 71 75 65 6e |......"],"sequen|
+|000000d0| 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 67 65 |ceId":1,"message|
+|000000e0| 54 79 70 65 22 3a 30 7d                         |Type":0}        |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:28:03.998  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xc875e7c2, L:/127.0.0.1:61434 - R:localhost/127.0.0.1:8080] FLUSH
+2024-07-08 00:28:04.005  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-07-08 00:28:04.005  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-07-08 00:28:04.006  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2024-07-08 00:28:04.006  DEBUG [nioEventLoopGroup-3-1] i.n.u.Recycler - -Dio.netty.recycler.ratio: 8
+2024-07-08 00:28:04.016  DEBUG [nioEventLoopGroup-3-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2024-07-08 00:28:04.016  DEBUG [nioEventLoopGroup-3-1] i.n.b.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2024-07-08 00:28:04.018  DEBUG [nioEventLoopGroup-3-1] i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7f8bb7e9
+2024-07-08 00:28:04.035  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x8a7f456e, L:/127.0.0.1:8080 - R:/127.0.0.1:61434] READ: 232B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 65 00 00 00 01 ff 00 00 00 d8 |......e.........|
+|00000010| 7b 22 69 6e 74 65 72 66 61 63 65 4e 61 6d 65 22 |{"interfaceName"|
+|00000020| 3a 22 63 6f 6d 2e 73 6e 77 6f 6c 66 2e 63 68 61 |:"com.snwolf.cha|
+|00000030| 74 2e 73 65 72 76 65 72 2e 73 65 72 76 69 63 65 |t.server.service|
+|00000040| 2e 48 65 6c 6c 6f 53 65 72 76 69 63 65 22 2c 22 |.HelloService","|
+|00000050| 6d 65 74 68 6f 64 4e 61 6d 65 22 3a 22 73 61 79 |methodName":"say|
+|00000060| 48 65 6c 6c 6f 22 2c 22 72 65 74 75 72 6e 54 79 |Hello","returnTy|
+|00000070| 70 65 22 3a 22 6a 61 76 61 2e 6c 61 6e 67 2e 53 |pe":"java.lang.S|
+|00000080| 74 72 69 6e 67 22 2c 22 70 61 72 61 6d 65 74 65 |tring","paramete|
+|00000090| 72 54 79 70 65 73 22 3a 5b 22 6a 61 76 61 2e 6c |rTypes":["java.l|
+|000000a0| 61 6e 67 2e 53 74 72 69 6e 67 22 5d 2c 22 70 61 |ang.String"],"pa|
+|000000b0| 72 61 6d 65 74 65 72 56 61 6c 75 65 22 3a 5b 22 |rameterValue":["|
+|000000c0| e5 bc a0 e4 b8 89 22 5d 2c 22 73 65 71 75 65 6e |......"],"sequen|
+|000000d0| 63 65 49 64 22 3a 31 2c 22 6d 65 73 73 61 67 65 |ceId":1,"message|
+|000000e0| 54 79 70 65 22 3a 30 7d                         |Type":0}        |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:28:04.036  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode...
+2024-07-08 00:28:04.113  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - decode message: RpcRequestMessage(super=Message(sequenceId=1, messageType=101), interfaceName=com.snwolf.chat.server.service.HelloService, methodName=sayHello, returnType=class java.lang.String, parameterTypes=[class java.lang.String], parameterValue=[张三])
+2024-07-08 00:28:04.120  ERROR [nioEventLoopGroup-3-1] c.s.c.s.h.RpcRequestMessageHandler - exception: {}
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.snwolf.chat.server.handler.RpcRequestMessageHandler.channelRead0(RpcRequestMessageHandler.java:29)
+	at com.snwolf.chat.server.handler.RpcRequestMessageHandler.channelRead0(RpcRequestMessageHandler.java:20)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:241)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:328)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ArithmeticException: / by zero
+	at com.snwolf.chat.server.service.HelloServiceImpl.sayHello(HelloServiceImpl.java:12)
+	... 37 common frames omitted
+2024-07-08 00:28:04.121  INFO  [nioEventLoopGroup-3-1] c.s.c.p.MessageCodecSharable - encode...
+2024-07-08 00:28:04.130  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x8a7f456e, L:/127.0.0.1:8080 - R:/127.0.0.1:61434] WRITE: 157B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 01 ff 00 00 00 8d |......f.........|
+|00000010| 7b 22 65 78 63 65 70 74 69 6f 6e 56 61 6c 75 65 |{"exceptionValue|
+|00000020| 22 3a 7b 22 64 65 74 61 69 6c 4d 65 73 73 61 67 |":{"detailMessag|
+|00000030| 65 22 3a 22 e8 bf 9c e7 a8 8b e8 b0 83 e7 94 a8 |e":"............|
+|00000040| e5 bc 82 e5 b8 b8 3a 20 2f 20 62 79 20 7a 65 72 |......: / by zer|
+|00000050| 6f 22 2c 22 73 74 61 63 6b 54 72 61 63 65 22 3a |o","stackTrace":|
+|00000060| 5b 5d 2c 22 73 75 70 70 72 65 73 73 65 64 45 78 |[],"suppressedEx|
+|00000070| 63 65 70 74 69 6f 6e 73 22 3a 5b 5d 7d 2c 22 73 |ceptions":[]},"s|
+|00000080| 65 71 75 65 6e 63 65 49 64 22 3a 31 2c 22 6d 65 |equenceId":1,"me|
+|00000090| 73 73 61 67 65 54 79 70 65 22 3a 30 7d          |ssageType":0}   |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:28:04.131  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x8a7f456e, L:/127.0.0.1:8080 - R:/127.0.0.1:61434] FLUSH
+2024-07-08 00:28:04.133  DEBUG [nioEventLoopGroup-3-1] i.n.h.l.LoggingHandler - [id: 0x8a7f456e, L:/127.0.0.1:8080 - R:/127.0.0.1:61434] READ COMPLETE
+2024-07-08 00:28:04.137  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xc875e7c2, L:/127.0.0.1:61434 - R:localhost/127.0.0.1:8080] READ: 157B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 01 02 03 04 01 01 66 00 00 00 01 ff 00 00 00 8d |......f.........|
+|00000010| 7b 22 65 78 63 65 70 74 69 6f 6e 56 61 6c 75 65 |{"exceptionValue|
+|00000020| 22 3a 7b 22 64 65 74 61 69 6c 4d 65 73 73 61 67 |":{"detailMessag|
+|00000030| 65 22 3a 22 e8 bf 9c e7 a8 8b e8 b0 83 e7 94 a8 |e":"............|
+|00000040| e5 bc 82 e5 b8 b8 3a 20 2f 20 62 79 20 7a 65 72 |......: / by zer|
+|00000050| 6f 22 2c 22 73 74 61 63 6b 54 72 61 63 65 22 3a |o","stackTrace":|
+|00000060| 5b 5d 2c 22 73 75 70 70 72 65 73 73 65 64 45 78 |[],"suppressedEx|
+|00000070| 63 65 70 74 69 6f 6e 73 22 3a 5b 5d 7d 2c 22 73 |ceptions":[]},"s|
+|00000080| 65 71 75 65 6e 63 65 49 64 22 3a 31 2c 22 6d 65 |equenceId":1,"me|
+|00000090| 73 73 61 67 65 54 79 70 65 22 3a 30 7d          |ssageType":0}   |
++--------+-------------------------------------------------+----------------+
+2024-07-08 00:28:04.137  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode...
+2024-07-08 00:28:04.144  INFO  [nioEventLoopGroup-2-1] c.s.c.p.MessageCodecSharable - decode message: RpcResponseMessage(super=Message(sequenceId=1, messageType=102), returnValue=null, exceptionValue=java.lang.Exception: 远程调用异常: / by zero)
+2024-07-08 00:28:04.146  INFO  [nioEventLoopGroup-2-1] c.s.c.c.h.RpcResponseMessageHandler - RpcResponseMessage(super=Message(sequenceId=1, messageType=102), returnValue=null, exceptionValue=java.lang.Exception: 远程调用异常: / by zero)
+2024-07-08 00:28:04.147  DEBUG [nioEventLoopGroup-2-1] i.n.h.l.LoggingHandler - [id: 0xc875e7c2, L:/127.0.0.1:61434 - R:localhost/127.0.0.1:8080] READ COMPLETE
