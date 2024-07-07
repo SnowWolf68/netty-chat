@@ -83,6 +83,7 @@ public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message
         Message message = serializeAlgo.deserialize(Message.getMessageClass(messageType), bytes);
         log.info("decode message: {}", message);
 
+        out.add(message);
         /*// 将内容的bytes反序列化成msg对象
         if(serializeType == 0){
             // jdk 序列化方式

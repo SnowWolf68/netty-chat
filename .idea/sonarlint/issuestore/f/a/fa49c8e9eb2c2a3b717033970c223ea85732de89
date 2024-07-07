@@ -1,7 +1,7 @@
 
-ˆ	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Âò˜”8ŞËçÍ„2J$f2d4176b-23fc-4b45-99ed-c2b04d0a666a
-	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(ˆ±¸¿ıÿÿÿÿ8ŞËçÍ„2J$79cf7806-cf81-46a3-907e-da00548eea7a
+ˆ	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Âò˜”8ŞËçÍ„2J$ce296da5-4383-4eb7-97a6-cd60be7726c9
+	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(ˆ±¸¿ıÿÿÿÿ8ŞËçÍ„2J$1790b817-9f1a-4a8f-90c2-57621565aa22
 r
-java:S1128"0Remove this unused import 'cn.hutool.json.JSON'.(ÿ!8êËçÍ„2J$da4ec0c3-8cd8-436d-8ba3-7f8f5d559e89
+java:S1128"0Remove this unused import 'cn.hutool.json.JSON'.(ÿ!8êËçÍ„2J$2e6a6372-d52b-4c2f-ada1-ddfe404ca6d4
 
-java:S1128"<Remove this unused import 'com.snwolf.chat.message.Message'.(·åˆö8êËçÍ„2J$13549fb8-4a3d-4713-b054-f68fef32f2c1
+java:S1128"<Remove this unused import 'com.snwolf.chat.message.Message'.(·åˆö8êËçÍ„2J$f3df215b-5219-4b75-8006-272635bd75fa

@@ -97,3 +97,13 @@ r
 Bsrc/main/java/com/snwolf/chat/server/service/HelloServiceImpl.java,a\0\a0c62cb4be76465eeb27052ec72674a96572eded
 q
 Asrc/main/java/com/snwolf/chat/server/service/ServicesFactory.java,d\b\db061e098600b445d3321a4a526d493c81d27d7b
+c
+3src/main/java/com/snwolf/chat/client/RPCClient.java,b\9\b9c5f2bee28064d2d45787c2cd9016b8fb2fd079
+{
+Ksrc/main/java/com/snwolf/chat/server/handler/RpcResponseMessageHandler.java,c\3\c30cfebbba50971936281244bfd9d6e129efd66c
+c
+3src/main/java/com/snwolf/chat/client/RpcClient.java,a\3\a3d024c0236a6ebe4d0d1fc89b2bdab45ebac5a7
+d
+4src/test/java/com/snwolf/chat/protocol/TestGson.java,b\7\b71698887e18daa7e4b8166b17d9a81154c89c62
+{
+Ksrc/main/java/com/snwolf/chat/client/handler/RpcResponseMessageHandler.java,d\b\db4c7f2f97d26285aa169eae353801a98bde1c05

@@ -27,7 +27,6 @@ public class RpcServer {
         LoggingHandler LOGGING_HANDLER = new LoggingHandler(LogLevel.DEBUG);
         MessageCodecSharable MESSAGE_CODEC = new MessageCodecSharable();
 
-        // rpc 请求消息处理器，待实现
         RpcRequestMessageHandler RPC_HANDLER = new RpcRequestMessageHandler();
         try {
             ServerBootstrap serverBootstrap = new ServerBootstrap();

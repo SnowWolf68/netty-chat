@@ -1,16 +1,16 @@
 
-~	java:S125-"<This block of commented-out lines of code should be removed.(´¶¿Ë8âõ†Î„2J$dbae5b4f-4f7b-4560-aaa8-8cc0cf9c5d5a
+X	java:S125-"<This block of commented-out lines of code should be removed.(´¶¿Ë8Ùã îˆ2
 [
-java:S1854F">Remove this useless assignment to local variable "sequenceId".(¿óø«8¢ÀªÎ„2
+java:S1854F">Remove this useless assignment to local variable "sequenceId".(¿óø«8Ûã îˆ2
 ]
-java:S1854@";Remove this useless assignment to local variable "version".(á«Çòÿÿÿÿÿ8¢ÀªÎ„2
+java:S1854@";Remove this useless assignment to local variable "version".(á«Çòÿÿÿÿÿ8Üã îˆ2
 \
-java:S1854>"?Remove this useless assignment to local variable "magicNumber".(Çµœ»8¢ÀªÎ„2
+java:S1854>"?Remove this useless assignment to local variable "magicNumber".(Çµœ»8Þã îˆ2
 M
-java:S1481>"0Remove this unused "magicNumber" local variable.(Çµœ»8£ÀªÎ„2
+java:S1481>"0Remove this unused "magicNumber" local variable.(Çµœ»8ßã îˆ2
 N
-java:S1481@",Remove this unused "version" local variable.(á«Çòÿÿÿÿÿ8£ÀªÎ„2
+java:S1481@",Remove this unused "version" local variable.(á«Çòÿÿÿÿÿ8ßã îˆ2
 L
-java:S1481F"/Remove this unused "sequenceId" local variable.(¿óø«8¤ÀªÎ„2
-]	java:S125O"<This block of commented-out lines of code should be removed.(ë‡³¹úÿÿÿÿ8¤ÀªÎ„2
-ƒ	java:S125W"<This block of commented-out lines of code should be removed.(ð¤þüÿÿÿÿ8ÌªÎ„2J$55805c3e-af87-440d-b44a-7ee6fa24e222
+java:S1481F"/Remove this unused "sequenceId" local variable.(¿óø«8àã îˆ2
+]	java:S125O"<This block of commented-out lines of code should be removed.(ë‡³¹úÿÿÿÿ8áã îˆ2
+]	java:S125X"<This block of commented-out lines of code should be removed.(ð¤þüÿÿÿÿ8ãã îˆ2

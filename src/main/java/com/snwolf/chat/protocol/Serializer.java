@@ -1,10 +1,11 @@
 package com.snwolf.chat.protocol;
 
 import cn.hutool.json.JSON;
-import com.google.gson.Gson;
+import com.google.gson.*;
 import com.snwolf.chat.message.Message;
 
 import java.io.*;
+import java.lang.reflect.Type;
 import java.nio.charset.StandardCharsets;
 
 /**
@@ -53,14 +54,33 @@ public interface Serializer {
         JSON{
             @Override
             public <T> T deserialize(Class<T> clazz, byte[] bytes) {
-                return new Gson().fromJson(new String(bytes, StandardCharsets.UTF_8), clazz);
+                Gson gson = new GsonBuilder().registerTypeAdapter(Class.class, new Serializer.ClassCodec()).create();
+                return gson.fromJson(new String(bytes, StandardCharsets.UTF_8), clazz);
             }
 
             @Override
             public <T> byte[] serialize(T object) {
-                String json = new Gson().toJson(object);
+                Gson gson = new GsonBuilder().registerTypeAdapter(Class.class, new Serializer.ClassCodec()).create();
+                String json = gson.toJson(object);
                 return json.getBytes(StandardCharsets.UTF_8);
             }
+        }
+    }
+    class ClassCodec implements JsonSerializer<Class<?>>, JsonDeserializer<Class<?>> {
+
+        @Override
+        public Class<?> deserialize(JsonElement jsonElement, Type type, JsonDeserializationContext jsonDeserializationContext) throws JsonParseException {
+            String str = jsonElement.getAsString();
+            try {
+                return Class.forName(str);
+            } catch (ClassNotFoundException e) {
+                throw new JsonParseException(e);
+            }
+        }
+
+        @Override
+        public JsonElement serialize(Class<?> aClass, Type type, JsonSerializationContext jsonSerializationContext) {
+            return new JsonPrimitive(aClass.getName());
         }
     }
 }
