@@ -1,0 +1,9 @@
+
+˜	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÄÒóıÿÿÿÿ8êÇÿîˆ2J$3c4a9c54-5eca-4cfa-bfdf-5425266af981
+“	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔ¤Ş8êÇÿîˆ2J$1cad7ab1-7d5b-41b1-942c-5308d606c396
+˜	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¸Óíüÿÿÿÿ8ëÇÿîˆ2J$277036c9-7bed-40f0-b4a4-e3eb152e8a2a
+L	java:S106%"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8‹½™ïˆ2
+¡
+java:S2142b"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Èÿîˆ2J$20c9b0ce-7b86-4f4a-8818-55d5e30ee4a6
+ƒ
+java:S1128";Remove this unused import 'io.netty.channel.ChannelFuture'.(¥¡ÔĞÿÿÿÿÿ8±œ„ïˆ2J$0f3b5792-66b9-4f53-8c8a-f9adad224821

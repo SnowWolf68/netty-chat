@@ -107,3 +107,7 @@ d
 4src/test/java/com/snwolf/chat/protocol/TestGson.java,b\7\b71698887e18daa7e4b8166b17d9a81154c89c62
 {
 Ksrc/main/java/com/snwolf/chat/client/handler/RpcResponseMessageHandler.java,d\b\db4c7f2f97d26285aa169eae353801a98bde1c05
+j
+:src/main/java/com/snwolf/chat/client/RpcClientManager.java,0\c\0c3549db13b2e6904db1b97c6ef2fb22b044afbe
+o
+?src/main/java/com/snwolf/chat/protocol/SequenceIdGenerator.java,a\e\ae8ee8b4817cec4bb5e3f8fb4530edf412165150
