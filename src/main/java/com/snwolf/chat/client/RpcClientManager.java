@@ -14,6 +14,8 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
+import io.netty.util.concurrent.DefaultPromise;
+import io.netty.util.concurrent.Promise;
 import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.Proxy;
@@ -32,9 +34,9 @@ public class RpcClientManager {
 
     public static void main(String[] args) {
         HelloService service = getProxy(HelloService.class);
-        service.sayHello("张三");
-        service.sayHello("张三123");
-        System.out.println();
+        System.out.println(service.sayHello("张三"));
+        System.out.println(service.sayHello("张三123"));
+        System.out.println(service.sayHello("lisi"));
     }
 
     /**
@@ -46,8 +48,9 @@ public class RpcClientManager {
      */
     public static <T> T getProxy(Class<T> interfaceClass) {
         Object service = Proxy.newProxyInstance(interfaceClass.getClassLoader(), new Class[]{interfaceClass}, (proxy, method, args) -> {
+            int sequenceId = SequenceIdGenerator.nextId();
             RpcRequestMessage message = new RpcRequestMessage(
-                    SequenceIdGenerator.nextId(),
+                    sequenceId,
                     interfaceClass.getName(),
                     method.getName(),
                     method.getReturnType(),
@@ -56,7 +59,16 @@ public class RpcClientManager {
             );
             getChannel().writeAndFlush(message);
 
-            return null;
+            // 接收结果
+            Promise<Object> promise = new DefaultPromise<>(getChannel().eventLoop());
+            RpcResponseMessageHandler.PROMISES.put(sequenceId, promise);
+
+            promise.await();
+            if (promise.isSuccess()) {
+                return promise.getNow();
+            } else {
+                throw new RuntimeException(promise.cause());
+            }
         });
         return (T) service;
     }
