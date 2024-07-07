@@ -85,3 +85,15 @@ f
 0src/main/java/com/snwolf/chat/config/Config.java,e\9\e906c9c4dbc91b2094162cd0d006ff991796da9d
 o
 ?src/test/java/com/snwolf/chat/protocol/TestMultiSerializer.java,f\2\f23c5f810eb7fdb8ac678f3090d8bd9f09f057f7
+m
+=src/main/java/com/snwolf/chat/message/RpcResponseMessage.java,6\f\6f4e4bd2465b2b8705de601e3feef17243868d39
+c
+3src/main/java/com/snwolf/chat/server/RpcServer.java,3\2\3264af6661cc707e62c811706713525dc71b2383
+z
+Jsrc/main/java/com/snwolf/chat/server/handler/RpcRequestMessageHandler.java,2\2\225c1bcf455f9e3dbd4ad91e1c1dfb4527f52f89
+n
+>src/main/java/com/snwolf/chat/server/service/HelloService.java,b\4\b443a0f7b96e599eb1673e4c62ae34a7642e3187
+r
+Bsrc/main/java/com/snwolf/chat/server/service/HelloServiceImpl.java,a\0\a0c62cb4be76465eeb27052ec72674a96572eded
+q
+Asrc/main/java/com/snwolf/chat/server/service/ServicesFactory.java,d\b\db061e098600b445d3321a4a526d493c81d27d7b

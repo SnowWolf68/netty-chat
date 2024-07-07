@@ -11263,3 +11263,4 @@ java.lang.NullPointerException: null
 2024-06-24 18:28:56.965  INFO  [main] c.s.c.p.MessageCodecSharable - decode message: LoginRequestMessage(super=Message(sequenceId=0, messageType=0), username=zhangsan, password=123)
 2024-06-24 18:28:56.966  DEBUG [main] i.n.h.l.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
 2024-06-24 18:28:56.966  DEBUG [main] i.n.h.l.LoggingHandler - [id: 0xembedded, L:embedded - R:embedded] READ COMPLETE
+2024-07-06 21:25:23.411  INFO  [main] c.s.c.s.h.RpcRequestMessageHandler - 张三
